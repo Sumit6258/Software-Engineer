@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this resource in your work, please cite it as below."
+title: "Software Engineer: a structured knowledge library for computer science and software engineering"
+abstract: >-
+  An open educational resource covering computer science and software
+  engineering from beginner to research level, organised around a 15-part,
+  64-subject syllabus with a topic-level coverage matrix.
+authors:
+  - name: "Software Engineer project contributors"
+keywords:
+  - computer science
+  - software engineering
+  - education
+  - curriculum
+# Owner action required: add repository-code, url, license (an SPDX identifier),
+# version and date-released once the repository is published and a licence is chosen.

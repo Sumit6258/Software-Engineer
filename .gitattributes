@@ -1,0 +1,4 @@
+# Normalise line endings; keep the source syllabus as binary.
+* text=auto eol=lf
+*.docx binary
+*.zip binary

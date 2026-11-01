@@ -1,0 +1,47 @@
+# Continuous checks for the repository.
+#
+# NOTE: this workflow was written in an environment without access to GitHub Actions
+# and has NOT been run. The scripts it calls were run locally. If a step fails on the
+# first push, fix the step (for example the Chrome path in the diagrams job) rather
+# than removing the check.
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r tools/requirements.txt
+      - name: Source, coverage, front matter, markdown, links, code, freshness
+        run: python3 tools/validate.py --only source,coverage,frontmatter,markdown,links,code,fresh
+
+  diagrams:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: pip install -r tools/requirements.txt
+      - name: Install the Mermaid CLI
+        env:
+          PUPPETEER_SKIP_DOWNLOAD: "true"
+        run: npm install -g @mermaid-js/mermaid-cli
+      - name: Parse every Mermaid diagram
+        env:
+          PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome
+        run: python3 tools/validate.py --only mermaid

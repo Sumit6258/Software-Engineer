@@ -1,0 +1,12 @@
+# Validation cache (Mermaid parse results)
+.cache/
+# Python
+__pycache__/
+*.pyc
+# Editors and OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Scratch output
+*.tmp

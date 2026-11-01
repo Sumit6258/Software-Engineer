@@ -1,0 +1,24 @@
+LICENSE PLACEHOLDER - NO LICENSE HAS BEEN SELECTED
+
+I haven't yet chosen a licence. This file exists so
+that the absence of a licence is explicit rather than accidental.
+
+Until a licence is added here, all rights are reserved by the respective
+authors, and no permission to copy, modify or redistribute the material is
+granted beyond what applicable law allows by default.
+
+Notes for the repository owner (this is not legal advice):
+
+  * The repository contains different kinds of work: prose and diagrams
+    (the lessons), source code (the scripts in tools/ and the code samples in
+    lessons) and a source syllabus supplied by the owner
+    (curriculum/source/Software_Engineering_Topics.docx). Many projects
+    license prose and code separately, for example a documentation licence for
+    the former and a software licence for the latter. That choice is yours.
+  * When you decide: replace this file with the full licence text(s), add
+    licence identifiers where appropriate, set the licence field in
+    CITATION.cff, update the "Contributing and licence" section of README.md,
+    and state in CONTRIBUTING.md what contributors agree to.
+  * Third-party material quoted or adapted in lessons must stay compatible
+    with whichever licence you choose. Lessons are written to paraphrase
+    rather than reproduce external text.
