@@ -149,6 +149,8 @@ def check_frontmatter(r):
         for k in REQUIRED_LESSON_KEYS:
             if k not in ls or ls[k] in (None, "", []):
                 fail("frontmatter", "%s: missing '%s'" % (rel, k))
+        if not ls.get("covers") and not ls.get("adds"):
+            fail("frontmatter", "%s: a lesson must list syllabus topics in 'covers' or declare what it introduces in 'adds'" % rel)
         if ls.get("status") not in STATUSES:
             fail("frontmatter", "%s: bad status %r" % (rel, ls.get("status")))
         if not re.match(r"^\d{4}-\d{2}-\d{2}$", str(ls.get("reviewed", ""))):

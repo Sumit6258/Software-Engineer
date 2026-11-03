@@ -6,7 +6,7 @@ Navigation across the entire library: all 15 parts, all 64 numbered subject area
 
 **Quick links:** [Start here](START-HERE.md) · [Learning paths](LEARNING-PATHS.md) · [Knowledge graph](KNOWLEDGE-GRAPH.md) · [Coverage matrix](curriculum/coverage-matrix.md) · [Progress](PROGRESS.md)
 
-**State:** 18 of 3032 subject topics have a drafted lesson.
+**State:** 28 of 3032 subject topics have a drafted lesson.
 
 ## [Part I — Computer Science Foundations](docs/01-computer-science-foundations/index.md)
 
@@ -21,7 +21,14 @@ Navigation across the entire library: all 15 parts, all 64 numbered subject area
     - [Binary Arithmetic](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/03-binary-arithmetic.md) *(Drafted)*
     - [Signed Numbers and Two's Complement](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/04-signed-numbers-and-twos-complement.md) *(Drafted)*
     - [Floating-Point Representation and IEEE 754](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/05-floating-point-and-ieee-754.md) *(Drafted)*
-  - Chapter 3: Data representation *(planned)*
+  - [Chapter 3: Data representation](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/index.md)
+    - [Bits, Bytes, Words and Memory Addresses](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/01-bits-bytes-words-and-addresses.md) *(Drafted)*
+    - [Error Detection and Correction](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/02-error-detection-and-correction.md) *(Drafted)*
+    - [Character Encoding and ASCII](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/03-character-encoding-and-ascii.md) *(Drafted)*
+    - [Unicode, UTF-8 and UTF-16](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/04-unicode-utf-8-and-utf-16.md) *(Drafted)*
+    - [Integers, Floating-Point Numbers and Endianness in Memory](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/05-integers-floats-and-endianness-in-memory.md) *(Drafted)*
+    - [Image, Audio and Video Encoding](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/06-image-audio-and-video-encoding.md) *(Drafted)*
+    - [Data Serialization](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/07-data-serialization.md) *(Drafted)*
   - Chapter 4: Boolean logic *(planned)*
   - Chapter 5: Computer components *(planned)*
   - Chapter 6: How computers execute instructions *(planned)*

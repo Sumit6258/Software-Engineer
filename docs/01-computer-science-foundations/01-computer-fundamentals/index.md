@@ -9,7 +9,7 @@ subject: 1
 
 > [Home](../../../README.md) › [Part I — Computer Science Foundations](../index.md) › Subject 1
 
-- **Status:** In progress (18 of 51 syllabus topics have a drafted lesson)
+- **Status:** In progress (28 of 51 syllabus topics have a drafted lesson)
 - **Source tags:** Start here · Beginner → Advanced
 - **Syllabus size:** 6 chapters, 51 topics
 
@@ -42,7 +42,7 @@ flowchart TD
     classDef dr fill:#e8f5e9,stroke:#2e7d32,color:#1b2a1d;
     class C1 dr;
     class C2 dr;
-    class C3 ns;
+    class C3 dr;
     class C4 ns;
     class C5 ns;
     class C6 ns;
@@ -102,22 +102,30 @@ Chapter index: [Chapter 2](02-number-systems/index.md)
 
 ### Chapter 3: Data representation
 
-10 topics · status: **Not started**
+10 topics · status: **Drafted**
 
-*Planned location:* `docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/`. No lessons yet.
+Chapter index: [Chapter 3](03-data-representation/index.md)
+
+- [Bits, Bytes, Words and Memory Addresses](03-data-representation/01-bits-bytes-words-and-addresses.md) — The units of data (bit, nibble, byte, word), decimal versus binary size prefixes, how memory is an array of addressed bytes, and why alignment and padding change the size of data. *(Drafted)*
+- [Error Detection and Correction](03-data-representation/02-error-detection-and-correction.md) — How redundancy lets a system notice and even repair corrupted bits: Hamming distance, parity, checksums, CRCs and Hamming codes, with working implementations. *(Drafted)*
+- [Character Encoding and ASCII](03-data-representation/03-character-encoding-and-ascii.md) — How text is stored as numbers, the difference between a character set and an encoding, the structure of ASCII, line endings, and how mixing up encodings produces garbled text. *(Drafted)*
+- [Unicode, UTF-8 and UTF-16](03-data-representation/04-unicode-utf-8-and-utf-16.md) — How Unicode numbers the world's characters, how UTF-8 and UTF-16 turn those numbers into bytes, and why the length of a string depends on what you count. *(Drafted)*
+- [Integers, Floating-Point Numbers and Endianness in Memory](03-data-representation/05-integers-floats-and-endianness-in-memory.md) — How integers and floating-point numbers are laid out in memory, how big the standard types really are, and what byte order (endianness) means for files and networks. *(Drafted)*
+- [Image, Audio and Video Encoding](03-data-representation/06-image-audio-and-video-encoding.md) — How pictures and sound become numbers (sampling and quantisation), how big raw media is, how lossless and lossy compression work, and what a PNG file and a WAV file really contain. *(Drafted)*
+- [Data Serialization](03-data-representation/07-data-serialization.md) — How in-memory data becomes bytes that can be stored or sent and rebuilt elsewhere: text and binary formats, schemas, versioning, and the security risks of deserialization. *(Drafted)*
 
 <details><summary>Syllabus topics in this chapter (10)</summary>
 
-- `01.03.01` Bits and bytes — *not started*
-- `01.03.02` Nibbles, words and memory addresses — *not started*
-- `01.03.03` Character encoding — *not started*
-- `01.03.04` ASCII — *not started*
-- `01.03.05` Unicode — *not started*
-- `01.03.06` UTF-8, UTF-16 — *not started*
-- `01.03.07` Integer and floating-point representation — *not started*
-- `01.03.08` Endianness — *not started*
-- `01.03.09` Image, audio and video encoding — *not started*
-- `01.03.10` Data serialization — *not started*
+- `01.03.01` Bits and bytes — [Bits, Bytes, Words and Memory Addresses](03-data-representation/01-bits-bytes-words-and-addresses.md)
+- `01.03.02` Nibbles, words and memory addresses — [Bits, Bytes, Words and Memory Addresses](03-data-representation/01-bits-bytes-words-and-addresses.md)
+- `01.03.03` Character encoding — [Character Encoding and ASCII](03-data-representation/03-character-encoding-and-ascii.md)
+- `01.03.04` ASCII — [Character Encoding and ASCII](03-data-representation/03-character-encoding-and-ascii.md)
+- `01.03.05` Unicode — [Unicode, UTF-8 and UTF-16](03-data-representation/04-unicode-utf-8-and-utf-16.md)
+- `01.03.06` UTF-8, UTF-16 — [Unicode, UTF-8 and UTF-16](03-data-representation/04-unicode-utf-8-and-utf-16.md)
+- `01.03.07` Integer and floating-point representation — [Integers, Floating-Point Numbers and Endianness in Memory](03-data-representation/05-integers-floats-and-endianness-in-memory.md)
+- `01.03.08` Endianness — [Integers, Floating-Point Numbers and Endianness in Memory](03-data-representation/05-integers-floats-and-endianness-in-memory.md)
+- `01.03.09` Image, audio and video encoding — [Image, Audio and Video Encoding](03-data-representation/06-image-audio-and-video-encoding.md)
+- `01.03.10` Data serialization — [Data Serialization](03-data-representation/07-data-serialization.md)
 
 </details>
 
@@ -181,7 +189,7 @@ Chapter index: [Chapter 2](02-number-systems/index.md)
 
 1. Chapter 1 — [Introduction to computers](01-introduction-to-computers/index.md)
 2. Chapter 2 — [Number systems](02-number-systems/index.md)
-3. Chapter 3 — Data representation
+3. Chapter 3 — [Data representation](03-data-representation/index.md)
 4. Chapter 4 — Boolean logic
 5. Chapter 5 — Computer components
 6. Chapter 6 — How computers execute instructions

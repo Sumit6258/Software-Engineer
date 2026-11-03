@@ -468,7 +468,8 @@ def lesson_header(r, ls):
         "- **Difficulty:** %s" % ls["difficulty"],
         "- **Estimated time:** about %d minutes" % ls["time_minutes"],
         "- **Prerequisites:** %s" % (" · ".join(pre) if pre else "none beyond the earlier lessons in this chapter"),
-        "- **Syllabus topics covered:** %s" % " · ".join(cov),
+        "- **Syllabus topics covered:** %s" % (" · ".join(cov) if cov else
+                                              "none from the source syllabus. This lesson introduces an addition: " + "; ".join(ls.get("adds") or [])),
         "- **Status:** %s (%s). Last reviewed %s." % (status, note, ls["reviewed"]),
         "<!-- END HEADER -->"])
 

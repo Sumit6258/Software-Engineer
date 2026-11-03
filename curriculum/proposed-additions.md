@@ -12,7 +12,7 @@ A proposal becomes an **addition** when a lesson introduces it and declares it w
 | 2 | Bitwise operations and shifts | Subject 1, chapter 2 | Needed from the first day of systems programming; the source covers binary arithmetic but not the operators | Added |
 | 3 | Integer overflow, wraparound and saturation | Subject 1, chapter 2 | A leading cause of real bugs and vulnerabilities | Added |
 | 4 | Fixed-point arithmetic | Subject 1, chapter 2 | The main alternative to floating point in embedded and signal-processing work, and the right way to hold money | Added |
-| 5 | Error detection and correction codes (parity, checksums, CRC, Hamming codes) | Subject 1, chapter 3, with a pointer from Subject 5 | Underpin storage, memory (ECC) and networking; no topic names them | Proposed |
+| 5 | Error detection and correction codes (parity, checksums, CRC, Hamming codes) | Subject 1, chapter 3, with a pointer from Subject 5 | Underpin storage, memory (ECC) and networking; no topic names them | Added |
 | 6 | Date, time and time zones | Subject 6 | A notorious source of bugs in every language | Proposed |
 | 7 | Regular expressions and text processing | Subject 6 or 9 | Ubiquitous tool; not named in the source | Proposed |
 | 8 | Bloom filters and probabilistic data structures | Subject 9 (advanced) | Widely used in databases and caches | Proposed |

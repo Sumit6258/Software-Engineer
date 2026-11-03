@@ -14,5 +14,13 @@ Primary sources are preferred over summaries. Bodies and documents are named so 
 | RFC 9110, *HTTP Semantics* | IETF | The request/response model of HTTP | [RFC Editor](https://www.rfc-editor.org/rfc/rfc9110) |
 | ISO/IEC 9899, *Programming languages — C* | ISO/IEC | The C language, including integer types and their behaviour | [ISO](https://www.iso.org/) |
 | GitHub Flavored Markdown Spec | GitHub | The Markdown dialect used in this repository | [github.github.com/gfm](https://github.github.com/gfm/) |
+| RFC 1071, *Computing the Internet Checksum* | IETF | The 16-bit ones'-complement checksum | [RFC Editor](https://www.rfc-editor.org/rfc/rfc1071) |
+| RFC 1950, *ZLIB Compressed Data Format Specification* and RFC 1951, *DEFLATE Compressed Data Format Specification* | IETF | The compression used by PNG, ZIP and gzip | [RFC Editor](https://www.rfc-editor.org/rfc/rfc1951) |
+| RFC 8949, *Concise Binary Object Representation (CBOR)* | IETF | A compact binary data format | [RFC Editor](https://www.rfc-editor.org/rfc/rfc8949) |
+| RFC 8785, *JSON Canonicalization Scheme (JCS)* | IETF | A canonical form of JSON for signing and hashing | [RFC Editor](https://www.rfc-editor.org/rfc/rfc8785) |
+| Portable Network Graphics (PNG) Specification, also ISO/IEC 15948 | W3C and ISO/IEC | The PNG file format | [W3C](https://www.w3.org/) |
+| Encoding Standard | WHATWG | Character encodings for the web, with UTF-8 as the recommended encoding | [encoding.spec.whatwg.org](https://encoding.spec.whatwg.org/) |
+| Unicode Standard Annex #15 (Normalization Forms) and #29 (Text Segmentation) | Unicode Consortium | Normalisation and grapheme clusters | [unicode.org](https://www.unicode.org/) |
+| IEC 80000-13 | IEC | The binary prefixes kibi, mebi and gibi | [IEC](https://www.iec.ch/) |
 
 Links above point to organisation or RFC pages. They were not fetched when this file was written (the authoring environment had no network access), so confirm them before relying on them in new lessons.

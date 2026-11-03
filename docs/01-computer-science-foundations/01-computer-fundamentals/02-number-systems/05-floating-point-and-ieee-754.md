@@ -478,5 +478,5 @@ $1.5$ and $2.25$ are stored as 384 and 576; their product $384 \cdot 576 = 221{,
 
 ## Navigation
 
-**Previous:** [Signed Numbers and Two's Complement](04-signed-numbers-and-twos-complement.md) · **Up:** [Chapter 2: Number systems](index.md) · **Next:** [subject index](../index.md)
+**Previous:** [Signed Numbers and Two's Complement](04-signed-numbers-and-twos-complement.md) · **Up:** [Chapter 2: Number systems](index.md) · **Next:** [Bits, Bytes, Words and Memory Addresses](../03-data-representation/01-bits-bytes-words-and-addresses.md)
 <!-- END FOOTER -->

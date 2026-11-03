@@ -42,20 +42,20 @@ Subject status: **In progress** · [Subject index](../../docs/01-computer-scienc
 
 ### 1.3 Data representation
 
-10 topics · 0 drafted or better
+10 topics · 10 drafted or better
 
 | ID | Topic | Documented in / planned location | Status |
 | --- | --- | --- | --- |
-| `01.03.01` | Bits and bytes | `docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/` | Not started |
-| `01.03.02` | Nibbles, words and memory addresses | `docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/` | Not started |
-| `01.03.03` | Character encoding | `docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/` | Not started |
-| `01.03.04` | ASCII | `docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/` | Not started |
-| `01.03.05` | Unicode | `docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/` | Not started |
-| `01.03.06` | UTF-8, UTF-16 | `docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/` | Not started |
-| `01.03.07` | Integer and floating-point representation | `docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/` | Not started |
-| `01.03.08` | Endianness | `docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/` | Not started |
-| `01.03.09` | Image, audio and video encoding | `docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/` | Not started |
-| `01.03.10` | Data serialization | `docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/` | Not started |
+| `01.03.01` | Bits and bytes | [Bits, Bytes, Words and Memory Addresses](../../docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/01-bits-bytes-words-and-addresses.md) | Drafted |
+| `01.03.02` | Nibbles, words and memory addresses | [Bits, Bytes, Words and Memory Addresses](../../docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/01-bits-bytes-words-and-addresses.md) | Drafted |
+| `01.03.03` | Character encoding | [Character Encoding and ASCII](../../docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/03-character-encoding-and-ascii.md) | Drafted |
+| `01.03.04` | ASCII | [Character Encoding and ASCII](../../docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/03-character-encoding-and-ascii.md) | Drafted |
+| `01.03.05` | Unicode | [Unicode, UTF-8 and UTF-16](../../docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/04-unicode-utf-8-and-utf-16.md) | Drafted |
+| `01.03.06` | UTF-8, UTF-16 | [Unicode, UTF-8 and UTF-16](../../docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/04-unicode-utf-8-and-utf-16.md) | Drafted |
+| `01.03.07` | Integer and floating-point representation | [Integers, Floating-Point Numbers and Endianness in Memory](../../docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/05-integers-floats-and-endianness-in-memory.md) | Drafted |
+| `01.03.08` | Endianness | [Integers, Floating-Point Numbers and Endianness in Memory](../../docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/05-integers-floats-and-endianness-in-memory.md) | Drafted |
+| `01.03.09` | Image, audio and video encoding | [Image, Audio and Video Encoding](../../docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/06-image-audio-and-video-encoding.md) | Drafted |
+| `01.03.10` | Data serialization | [Data Serialization](../../docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/07-data-serialization.md) | Drafted |
 
 ### 1.4 Boolean logic
 

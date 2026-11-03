@@ -15,8 +15,9 @@ ROOT = Path(__file__).resolve().parent.parent
 STATUSES = ["Not started", "In progress", "Drafted", "Reviewed", "Complete"]
 RANK = {s: i for i, s in enumerate(STATUSES)}
 FM_RE = re.compile(r"\A---\n(.*?)\n---\n", re.S)
+# `covers` may be empty only for a lesson that introduces an addition (`adds`); see validate.py
 REQUIRED_LESSON_KEYS = ["title", "subject", "chapter", "order", "difficulty",
-                        "time_minutes", "status", "reviewed", "covers", "summary"]
+                        "time_minutes", "status", "reviewed", "summary"]
 
 
 def rel_link(from_file, to_path):

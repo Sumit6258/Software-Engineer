@@ -40,7 +40,7 @@ time_minutes: 60
 status: Drafted
 reviewed: 2026-10-31                        # date the content was last checked
 summary: "One sentence shown in indexes."
-covers: ["01.02.01-01.02.04"]               # syllabus topic IDs (ranges allowed)
+covers: ["01.02.01-01.02.04"]               # syllabus topic IDs (ranges allowed); may be [] only if 'adds' is set
 adds: ["A topic not in the source syllabus"]  # optional
 prerequisites: ["docs/.../earlier-lesson.md", "Plain text prerequisites also allowed"]
 related: ["docs/.../related-lesson.md"]

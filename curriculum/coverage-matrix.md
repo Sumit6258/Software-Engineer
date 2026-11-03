@@ -22,9 +22,9 @@ A topic is **not** complete because its file exists. It is complete when a begin
 
 | Status | Topics | Share |
 | --- | --- | --- |
-| Not started | 3014 | 99.4% |
+| Not started | 3004 | 99.1% |
 | In progress | 0 | 0.0% |
-| Drafted | 18 | 0.6% |
+| Drafted | 28 | 0.9% |
 | Reviewed | 0 | 0.0% |
 | Complete | 0 | 0.0% |
 | **Total** | 3032 | 100% |
@@ -35,7 +35,7 @@ Topics in Parts XIII–XV (229) are covered by the generated pages under `docs/1
 
 | Part | Topics | Drafted or better | Part status |
 | --- | --- | --- | --- |
-| [Part I — Computer Science Foundations](coverage/part-01-computer-science-foundations.md) | 355 | 18 | In progress |
+| [Part I — Computer Science Foundations](coverage/part-01-computer-science-foundations.md) | 355 | 28 | In progress |
 | [Part II — Programming and Software Development](coverage/part-02-programming-and-software-development.md) | 305 | 0 | Not started |
 | [Part III — Professional Software Engineering](coverage/part-03-professional-software-engineering.md) | 252 | 0 | Not started |
 | [Part IV — Building Software Products](coverage/part-04-building-software-products.md) | 444 | 0 | Not started |
@@ -55,7 +55,7 @@ Topics in Parts XIII–XV (229) are covered by the generated pages under `docs/1
 
 | # | Subject | Groups | Topics | Drafted or better | Status |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [Computer Fundamentals](coverage/part-01-computer-science-foundations.md#1-computer-fundamentals) | 6 | 51 | 18 | In progress |
+| 1 | [Computer Fundamentals](coverage/part-01-computer-science-foundations.md#1-computer-fundamentals) | 6 | 51 | 28 | In progress |
 | 2 | [Mathematics for Computer Science](coverage/part-01-computer-science-foundations.md#2-mathematics-for-computer-science) | 10 | 101 | 0 | Not started |
 | 3 | [Digital Logic and Computer Organization](coverage/part-01-computer-science-foundations.md#3-digital-logic-and-computer-organization) | 4 | 43 | 0 | Not started |
 | 4 | [Operating Systems](coverage/part-01-computer-science-foundations.md#4-operating-systems) | 8 | 74 | 0 | Not started |
@@ -130,6 +130,7 @@ Topics introduced by this repository that are **not** in the original syllabus a
 | 1 | Chapter 2 | Bitwise operations and shifts | [Binary Arithmetic](../docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/03-binary-arithmetic.md) | Drafted |
 | 1 | Chapter 2 | Integer overflow, wraparound and saturation | [Binary Arithmetic](../docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/03-binary-arithmetic.md) | Drafted |
 | 1 | Chapter 2 | Fixed-point arithmetic | [Floating-Point Representation and IEEE 754](../docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/05-floating-point-and-ieee-754.md) | Drafted |
+| 1 | Chapter 3 | Error detection and correction codes (parity, checksums, CRC, Hamming codes) | [Error Detection and Correction](../docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/02-error-detection-and-correction.md) | Drafted |
 
 ## Verification
 

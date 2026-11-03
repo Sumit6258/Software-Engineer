@@ -15,3 +15,7 @@ A curated, growing list. Each entry is a real, published book; editions are give
 | Michael L. Overton, *Numerical Computing with IEEE Floating Point Arithmetic* (SIAM, 2001) | A short, clear book on IEEE 754 and its consequences. | Intermediate |
 | Jean-Michel Muller and others, *Handbook of Floating-Point Arithmetic* (Birkhäuser, 2nd edition, 2018) | The comprehensive reference on floating-point formats and algorithms. | Advanced |
 | Henry S. Warren Jr., *Hacker's Delight* (Addison-Wesley, 2nd edition, 2012) | Bit manipulation, integer arithmetic tricks and two's-complement idioms. | Intermediate to advanced |
+| Shu Lin and Daniel J. Costello Jr., *Error Control Coding* (Pearson) | The standard textbook on error-detecting and error-correcting codes. | Advanced |
+| David Salomon, *Data Compression: The Complete Reference* (Springer) | Lossless and lossy compression, from Huffman coding to image and video codecs. | Intermediate to advanced |
+| Alan V. Oppenheim and Ronald W. Schafer, *Discrete-Time Signal Processing* (Pearson) | Sampling, aliasing and digital signals. | Advanced |
+| Martin Kleppmann, *Designing Data-Intensive Applications* (O'Reilly) | The chapter on encoding and evolution covers serialization formats and compatibility. | Intermediate |

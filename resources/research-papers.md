@@ -11,6 +11,8 @@ Foundational papers cited by the lessons. Entries give bibliographic details rat
 | D. Goldberg, "What Every Computer Scientist Should Know About Floating-Point Arithmetic", *ACM Computing Surveys*, vol. 23, no. 1, 1991 | The classic explanation of rounding error and IEEE 754. |
 | W. Kahan, "Further Remarks on Reducing Truncation Errors", *Communications of the ACM*, vol. 8, no. 1, 1965 | Compensated (Kahan) summation. |
 | D. Cohen, "On Holy Wars and a Plea for Peace", *IEEE Computer*, vol. 14, no. 10, 1981 | Names and analyses the big-endian versus little-endian dispute. |
+| R. W. Hamming, "Error Detecting and Error Correcting Codes", *Bell System Technical Journal*, vol. 29, no. 2, 1950 | The original Hamming codes. |
+| J. H. Saltzer, D. P. Reed and D. D. Clark, "End-to-End Arguments in System Design", *ACM Transactions on Computer Systems*, vol. 2, no. 4, 1984 | Why checks must also be made at the endpoints, not only in lower layers. |
 
 ## Incident reports used as case studies
 
