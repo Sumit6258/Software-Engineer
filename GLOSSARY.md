@@ -21,6 +21,7 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 - **Bit**: A binary digit, 0 or 1; the smallest unit of information in a digital computer. See [Positional Number Systems](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/01-positional-number-systems.md).
 - **Bit depth**: The number of bits used to store each sample or colour channel. See [Image, Audio and Video Encoding](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/06-image-audio-and-video-encoding.md).
 - **Bitwise operation**: An operation applied independently to every bit position of its operands: AND, OR, XOR, NOT and shifts. See [Binary Arithmetic](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/03-binary-arithmetic.md).
+- **Boolean algebra**: The algebra of two-valued quantities, with AND, OR and NOT and laws for transforming expressions. See [Boolean Algebra and De Morgan's Laws](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/02-boolean-algebra-and-de-morgans-laws.md).
 - **Byte**: Eight bits in practice; the smallest addressable unit of memory. See [Bits, Bytes, Words and Memory Addresses](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/01-bits-bytes-words-and-addresses.md).
 - **Byte order mark (BOM)**: The character U+FEFF placed at the start of text so a reader can tell the byte order or encoding. See [Unicode, UTF-8 and UTF-16](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/04-unicode-utf-8-and-utf-16.md).
 
@@ -36,13 +37,16 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 - **Code point**: The number Unicode assigns to a character, written U+ followed by hexadecimal digits. See [Unicode, UTF-8 and UTF-16](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/04-unicode-utf-8-and-utf-16.md).
 - **Code unit**: The fixed-size piece an encoding is built from: one byte in UTF-8, 16 bits in UTF-16. See [Unicode, UTF-8 and UTF-16](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/04-unicode-utf-8-and-utf-16.md).
 - **Codec and container**: A codec compresses and decompresses a stream; a container packages compressed streams into a file. See [Image, Audio and Video Encoding](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/06-image-audio-and-video-encoding.md).
+- **Combinational logic**: Logic whose output depends only on its present inputs, with no memory. See [Logic Gates and Truth Tables](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/01-logic-gates-and-truth-tables.md).
 - **Computer**: A programmable machine that follows stored instructions to turn input into output, using memory to hold both instructions and data. See [What Is a Computer?](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/01-what-is-a-computer.md).
 - **CRC (cyclic redundancy check)**: An error-detecting code from polynomial division over GF(2), strong against bursts of errors. See [Error Detection and Correction](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/02-error-detection-and-correction.md).
 
 ## D
 
 - **Data model (ILP32, LP64, LLP64)**: The set of sizes a C platform gives to int, long and pointers. See [Integers, Floating-Point Numbers and Endianness in Memory](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/05-integers-floats-and-endianness-in-memory.md).
+- **De Morgan's laws**: The complement of an AND is the OR of the complements, and the complement of an OR is the AND of the complements. See [Boolean Algebra and De Morgan's Laws](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/02-boolean-algebra-and-de-morgans-laws.md).
 - **Deserialization**: Rebuilding in-memory data from its serialized bytes. See [Data Serialization](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/07-data-serialization.md).
+- **Don't-care condition**: An input combination whose output does not matter, which minimisation may treat as 0 or 1. See [Logic Simplification](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/03-logic-simplification.md).
 
 ## E
 
@@ -57,6 +61,7 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 - **Floating-point**: A representation of numbers as a sign, an exponent and a fraction, like scientific notation in base 2. See [Floating-Point Representation and IEEE 754](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/05-floating-point-and-ieee-754.md).
 - **Fraction (significand field)**: The field that holds the digits after the leading 1 of a floating-point number's significand. See [Floating-Point Representation and IEEE 754](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/05-floating-point-and-ieee-754.md).
 - **Full adder and half adder**: Circuits that add bits: a half adder adds two bits; a full adder also accepts an incoming carry. See [Binary Arithmetic](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/03-binary-arithmetic.md).
+- **Functional completeness (universal gate)**: A set of gates from which every Boolean function can be built; NAND alone and NOR alone are complete. See [Logic Gates and Truth Tables](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/01-logic-gates-and-truth-tables.md).
 
 ## G
 
@@ -78,12 +83,14 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 
 ## K
 
+- **Karnaugh map**: A truth table arranged on a grid with Gray-code axes so that groups of adjacent 1s give simplified product terms. See [Logic Simplification](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/03-logic-simplification.md).
 - **Kibibyte (KiB), mebibyte, gibibyte**: Binary size units of 2 to the power 10, 20 and 30 bytes; kB, MB and GB mean powers of 1000. See [Bits, Bytes, Words and Memory Addresses](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/01-bits-bytes-words-and-addresses.md).
 
 ## L
 
 - **Latency**: The time a message takes to travel from one place to another. See [Client-Server and Remote Computing](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/03-client-server-and-remote-computing.md).
 - **Little-endian**: Byte order that stores the least significant byte at the lowest address. See [Integers, Floating-Point Numbers and Endianness in Memory](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/05-integers-floats-and-endianness-in-memory.md).
+- **Logic gate**: A circuit that computes a Boolean function of one or more binary inputs. See [Logic Gates and Truth Tables](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/01-logic-gates-and-truth-tables.md).
 - **Loopback address**: An address that refers to the local machine itself; `127.0.0.1` in IPv4. See [Client-Server and Remote Computing](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/03-client-server-and-remote-computing.md).
 - **Lossless and lossy compression**: Lossless compression is exactly reversible; lossy compression discards information to be smaller. See [Image, Audio and Video Encoding](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/06-image-audio-and-video-encoding.md).
 
@@ -92,6 +99,7 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 - **Machine epsilon**: The gap between 1.0 and the next larger representable floating-point number. See [Floating-Point Representation and IEEE 754](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/05-floating-point-and-ieee-754.md).
 - **Memory (RAM)**: Fast, volatile working storage that the processor accesses directly by address. See [What Is a Computer?](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/01-what-is-a-computer.md).
 - **Microcontroller**: A single-chip computer combining a small processor, memory and peripherals, used in embedded systems. See [Types of Computers](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/02-types-of-computers.md).
+- **Minterm and maxterm**: A minterm is a product that is 1 for exactly one input row; a maxterm is a sum that is 0 for exactly one row. See [Boolean Algebra and De Morgan's Laws](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/02-boolean-algebra-and-de-morgans-laws.md).
 - **Mojibake**: Garbled text that results from decoding bytes with a different encoding from the one used to write them. See [Character Encoding and ASCII](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/03-character-encoding-and-ascii.md).
 
 ## N
@@ -118,7 +126,12 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 - **Pixel**: One element of a raster image, usually stored as red, green and blue intensities. See [Image, Audio and Video Encoding](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/06-image-audio-and-video-encoding.md).
 - **Pointer**: A variable whose value is a memory address. See [Bits, Bytes, Words and Memory Addresses](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/01-bits-bytes-words-and-addresses.md).
 - **Positional notation**: A way of writing numbers in which a digit's position determines its weight. See [Positional Number Systems](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/01-positional-number-systems.md).
+- **Prime implicant**: A product term that implies the function and cannot be shrunk by removing a variable. See [Logic Simplification](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/03-logic-simplification.md).
 - **Protocol**: An agreed set of message formats and rules that lets a client and a server cooperate. See [Client-Server and Remote Computing](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/03-client-server-and-remote-computing.md).
+
+## Q
+
+- **Quine-McCluskey algorithm**: A systematic procedure that merges minterms into prime implicants and then selects a minimal cover. See [Logic Simplification](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/03-logic-simplification.md).
 
 ## R
 
@@ -138,12 +151,14 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 - **Stateless**: Describes a protocol in which each request carries everything needed to process it, so the server keeps no memory of earlier requests. See [Client-Server and Remote Computing](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/03-client-server-and-remote-computing.md).
 - **Stored-program concept**: The design in which instructions and data are both held as bit patterns in the same memory. See [What Is a Computer?](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/01-what-is-a-computer.md).
 - **Subnormal**: A floating-point number smaller than the smallest normal number, stored without a hidden bit, giving gradual underflow. See [Floating-Point Representation and IEEE 754](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/05-floating-point-and-ieee-754.md).
+- **Sum of products and product of sums**: Two standard forms of a Boolean expression: an OR of AND terms, or an AND of OR terms. See [Boolean Algebra and De Morgan's Laws](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/02-boolean-algebra-and-de-morgans-laws.md).
 - **Supercomputer**: A system built to run one very large job across a very large number of processors in parallel. See [Types of Computers](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/02-types-of-computers.md).
 - **Surrogate pair**: Two UTF-16 code units that together encode a code point above U+FFFF. See [Unicode, UTF-8 and UTF-16](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/04-unicode-utf-8-and-utf-16.md).
 
 ## T
 
 - **Tag-length-value (TLV)**: A format in which each field is a tag, a length and a value, so readers can skip unknown fields. See [Data Serialization](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/07-data-serialization.md).
+- **Truth table**: A table listing a function's output for every combination of inputs. See [Logic Gates and Truth Tables](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/01-logic-gates-and-truth-tables.md).
 - **Two's complement**: The standard signed integer representation, in which the top bit has negative weight and negation is invert-and-add-one. See [Signed Numbers and Two's Complement](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/04-signed-numbers-and-twos-complement.md).
 
 ## U
@@ -162,3 +177,7 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 
 - **Word**: The natural unit of data of a processor, commonly 16, 32 or 64 bits. See [Bits, Bytes, Words and Memory Addresses](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/01-bits-bytes-words-and-addresses.md).
 - **Wraparound**: Keeping only the low $n$ bits of a result, so values wrap modulo $2^n$. See [Binary Arithmetic](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/03-binary-arithmetic.md).
+
+## X
+
+- **XOR (exclusive or)**: A gate that outputs 1 when exactly one input is 1; addition of two bits without carry. See [Logic Gates and Truth Tables](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/01-logic-gates-and-truth-tables.md).

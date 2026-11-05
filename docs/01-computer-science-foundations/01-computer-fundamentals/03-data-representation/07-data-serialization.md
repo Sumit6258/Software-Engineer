@@ -347,5 +347,5 @@ None
 
 ## Navigation
 
-**Previous:** [Image, Audio and Video Encoding](06-image-audio-and-video-encoding.md) · **Up:** [Chapter 3: Data representation](index.md) · **Next:** [subject index](../index.md)
+**Previous:** [Image, Audio and Video Encoding](06-image-audio-and-video-encoding.md) · **Up:** [Chapter 3: Data representation](index.md) · **Next:** [Logic Gates and Truth Tables](../04-boolean-logic/01-logic-gates-and-truth-tables.md)
 <!-- END FOOTER -->

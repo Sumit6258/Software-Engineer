@@ -19,3 +19,6 @@ A curated, growing list. Each entry is a real, published book; editions are give
 | David Salomon, *Data Compression: The Complete Reference* (Springer) | Lossless and lossy compression, from Huffman coding to image and video codecs. | Intermediate to advanced |
 | Alan V. Oppenheim and Ronald W. Schafer, *Discrete-Time Signal Processing* (Pearson) | Sampling, aliasing and digital signals. | Advanced |
 | Martin Kleppmann, *Designing Data-Intensive Applications* (O'Reilly) | The chapter on encoding and evolution covers serialization formats and compatibility. | Intermediate |
+| Sarah L. Harris and David Harris, *Digital Design and Computer Architecture* (Morgan Kaufmann) | Logic gates, Boolean algebra, simplification and processor design in one coherent course. | Intermediate |
+| Donald E. Knuth, *The Art of Computer Programming, Volume 4A: Combinatorial Algorithms, Part 1* (Addison-Wesley) | Section 7.1 is the definitive treatment of Boolean functions and their evaluation. | Advanced |
+| Robert K. Brayton and others, *Logic Minimization Algorithms for VLSI Synthesis* (Kluwer, 1984) | The Espresso heuristic minimiser. | Advanced |

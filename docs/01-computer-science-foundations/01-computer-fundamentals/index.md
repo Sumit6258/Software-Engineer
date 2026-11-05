@@ -9,7 +9,7 @@ subject: 1
 
 > [Home](../../../README.md) › [Part I — Computer Science Foundations](../index.md) › Subject 1
 
-- **Status:** In progress (28 of 51 syllabus topics have a drafted lesson)
+- **Status:** In progress (34 of 51 syllabus topics have a drafted lesson)
 - **Source tags:** Start here · Beginner → Advanced
 - **Syllabus size:** 6 chapters, 51 topics
 
@@ -43,7 +43,7 @@ flowchart TD
     class C1 dr;
     class C2 dr;
     class C3 dr;
-    class C4 ns;
+    class C4 dr;
     class C5 ns;
     class C6 ns;
 ```
@@ -131,18 +131,22 @@ Chapter index: [Chapter 3](03-data-representation/index.md)
 
 ### Chapter 4: Boolean logic
 
-6 topics · status: **Not started**
+6 topics · status: **Drafted**
 
-*Planned location:* `docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/`. No lessons yet.
+Chapter index: [Chapter 4](04-boolean-logic/index.md)
+
+- [Logic Gates and Truth Tables](04-boolean-logic/01-logic-gates-and-truth-tables.md) — The basic logic gates (AND, OR, NOT, NAND, NOR, XOR, XNOR), how truth tables describe them, why NAND alone can build everything, and how gates form an adder. *(Drafted)*
+- [Boolean Algebra and De Morgan's Laws](04-boolean-logic/02-boolean-algebra-and-de-morgans-laws.md) — The laws for transforming logical expressions, De Morgan's laws, how to prove two expressions equivalent, and how to write any function as a sum of products. *(Drafted)*
+- [Logic Simplification](04-boolean-logic/03-logic-simplification.md) — Why and how to minimise a Boolean function: algebraic simplification, Karnaugh maps, don't-care conditions, and the Quine-McCluskey algorithm implemented and verified in code. *(Drafted)*
 
 <details><summary>Syllabus topics in this chapter (6)</summary>
 
-- `01.04.01` AND, OR, NOT — *not started*
-- `01.04.02` NAND, NOR, XOR, XNOR — *not started*
-- `01.04.03` Truth tables — *not started*
-- `01.04.04` Boolean algebra — *not started*
-- `01.04.05` De Morgan's laws — *not started*
-- `01.04.06` Logic simplification — *not started*
+- `01.04.01` AND, OR, NOT — [Logic Gates and Truth Tables](04-boolean-logic/01-logic-gates-and-truth-tables.md)
+- `01.04.02` NAND, NOR, XOR, XNOR — [Logic Gates and Truth Tables](04-boolean-logic/01-logic-gates-and-truth-tables.md)
+- `01.04.03` Truth tables — [Logic Gates and Truth Tables](04-boolean-logic/01-logic-gates-and-truth-tables.md)
+- `01.04.04` Boolean algebra — [Boolean Algebra and De Morgan's Laws](04-boolean-logic/02-boolean-algebra-and-de-morgans-laws.md)
+- `01.04.05` De Morgan's laws — [Boolean Algebra and De Morgan's Laws](04-boolean-logic/02-boolean-algebra-and-de-morgans-laws.md)
+- `01.04.06` Logic simplification — [Logic Simplification](04-boolean-logic/03-logic-simplification.md)
 
 </details>
 
@@ -190,7 +194,7 @@ Chapter index: [Chapter 3](03-data-representation/index.md)
 1. Chapter 1 — [Introduction to computers](01-introduction-to-computers/index.md)
 2. Chapter 2 — [Number systems](02-number-systems/index.md)
 3. Chapter 3 — [Data representation](03-data-representation/index.md)
-4. Chapter 4 — Boolean logic
+4. Chapter 4 — [Boolean logic](04-boolean-logic/index.md)
 5. Chapter 5 — Computer components
 6. Chapter 6 — How computers execute instructions
 

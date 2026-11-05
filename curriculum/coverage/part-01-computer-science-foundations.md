@@ -59,16 +59,16 @@ Subject status: **In progress** · [Subject index](../../docs/01-computer-scienc
 
 ### 1.4 Boolean logic
 
-6 topics · 0 drafted or better
+6 topics · 6 drafted or better
 
 | ID | Topic | Documented in / planned location | Status |
 | --- | --- | --- | --- |
-| `01.04.01` | AND, OR, NOT | `docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/` | Not started |
-| `01.04.02` | NAND, NOR, XOR, XNOR | `docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/` | Not started |
-| `01.04.03` | Truth tables | `docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/` | Not started |
-| `01.04.04` | Boolean algebra | `docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/` | Not started |
-| `01.04.05` | De Morgan's laws | `docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/` | Not started |
-| `01.04.06` | Logic simplification | `docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/` | Not started |
+| `01.04.01` | AND, OR, NOT | [Logic Gates and Truth Tables](../../docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/01-logic-gates-and-truth-tables.md) | Drafted |
+| `01.04.02` | NAND, NOR, XOR, XNOR | [Logic Gates and Truth Tables](../../docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/01-logic-gates-and-truth-tables.md) | Drafted |
+| `01.04.03` | Truth tables | [Logic Gates and Truth Tables](../../docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/01-logic-gates-and-truth-tables.md) | Drafted |
+| `01.04.04` | Boolean algebra | [Boolean Algebra and De Morgan's Laws](../../docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/02-boolean-algebra-and-de-morgans-laws.md) | Drafted |
+| `01.04.05` | De Morgan's laws | [Boolean Algebra and De Morgan's Laws](../../docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/02-boolean-algebra-and-de-morgans-laws.md) | Drafted |
+| `01.04.06` | Logic simplification | [Logic Simplification](../../docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/03-logic-simplification.md) | Drafted |
 
 ### 1.5 Computer components
 

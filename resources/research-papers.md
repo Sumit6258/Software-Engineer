@@ -13,6 +13,12 @@ Foundational papers cited by the lessons. Entries give bibliographic details rat
 | D. Cohen, "On Holy Wars and a Plea for Peace", *IEEE Computer*, vol. 14, no. 10, 1981 | Names and analyses the big-endian versus little-endian dispute. |
 | R. W. Hamming, "Error Detecting and Error Correcting Codes", *Bell System Technical Journal*, vol. 29, no. 2, 1950 | The original Hamming codes. |
 | J. H. Saltzer, D. P. Reed and D. D. Clark, "End-to-End Arguments in System Design", *ACM Transactions on Computer Systems*, vol. 2, no. 4, 1984 | Why checks must also be made at the endpoints, not only in lower layers. |
+| G. Boole, *An Investigation of the Laws of Thought*, 1854 | Boolean algebra as the algebra of logic. |
+| A. De Morgan, *Formal Logic: or, The Calculus of Inference, Necessary and Probable*, 1847 | De Morgan's laws. |
+| M. Karnaugh, "The Map Method for Synthesis of Combinational Logic Circuits", *Transactions of the AIEE*, 1953 | The Karnaugh map. |
+| W. V. Quine, "The Problem of Simplifying Truth Functions", *The American Mathematical Monthly*, 1952 | The theory behind prime implicants and minimisation. |
+| E. J. McCluskey, "Minimization of Boolean Functions", *Bell System Technical Journal*, 1956 | The Quine-McCluskey tabular method. |
+| R. E. Bryant, "Graph-Based Algorithms for Boolean Function Manipulation", *IEEE Transactions on Computers*, 1986 | Binary decision diagrams. |
 
 ## Incident reports used as case studies
 

@@ -6,7 +6,7 @@ Navigation across the entire library: all 15 parts, all 64 numbered subject area
 
 **Quick links:** [Start here](START-HERE.md) · [Learning paths](LEARNING-PATHS.md) · [Knowledge graph](KNOWLEDGE-GRAPH.md) · [Coverage matrix](curriculum/coverage-matrix.md) · [Progress](PROGRESS.md)
 
-**State:** 28 of 3032 subject topics have a drafted lesson.
+**State:** 34 of 3032 subject topics have a drafted lesson.
 
 ## [Part I — Computer Science Foundations](docs/01-computer-science-foundations/index.md)
 
@@ -29,7 +29,10 @@ Navigation across the entire library: all 15 parts, all 64 numbered subject area
     - [Integers, Floating-Point Numbers and Endianness in Memory](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/05-integers-floats-and-endianness-in-memory.md) *(Drafted)*
     - [Image, Audio and Video Encoding](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/06-image-audio-and-video-encoding.md) *(Drafted)*
     - [Data Serialization](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/07-data-serialization.md) *(Drafted)*
-  - Chapter 4: Boolean logic *(planned)*
+  - [Chapter 4: Boolean logic](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/index.md)
+    - [Logic Gates and Truth Tables](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/01-logic-gates-and-truth-tables.md) *(Drafted)*
+    - [Boolean Algebra and De Morgan's Laws](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/02-boolean-algebra-and-de-morgans-laws.md) *(Drafted)*
+    - [Logic Simplification](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/03-logic-simplification.md) *(Drafted)*
   - Chapter 5: Computer components *(planned)*
   - Chapter 6: How computers execute instructions *(planned)*
 - **[2. Mathematics for Computer Science](docs/01-computer-science-foundations/02-mathematics-for-computer-science/index.md)** — Not started

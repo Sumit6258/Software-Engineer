@@ -24,7 +24,7 @@ def prose_words(text):
     return len(re.findall(r"[A-Za-z0-9’'-]+", text))
 
 
-def stats_block(r):
+def stats_block(r, out=None):
     st = r.cur["stats"]
     c = r.counts()
     done = sum(c[s] for s in ("Drafted", "Reviewed", "Complete"))
@@ -37,13 +37,13 @@ def stats_block(r):
     return md_table(["Measure", "Value"], rows)
 
 
-def progress_block(r):
+def progress_block(r, out=None):
     c = r.counts()
     L = [md_table(["Status", "Topics"], [[s, c[s]] for s in STATUSES] + [["Total", c["total"]]]), "",
          "### Lessons written", ""]
     rows = []
     for ls in r.lessons:
-        txt = ls["_path"].read_text("utf8")
+        txt = (out or {}).get(ls["_path"]) or ls["_path"].read_text("utf8")   # text after header/footer injection
         rows.append([link(ls["title"], ROOT / "PROGRESS.md", ls["_path"]), "S%02d / ch%d" % (ls["subject"], ls["chapter"]),
                      ls["status"], ls["reviewed"], prose_words(txt)])
     L += [md_table(["Lesson", "Where", "Status", "Last reviewed", "Prose words"], rows) if rows else "_None yet._", "",
@@ -67,7 +67,7 @@ def main():
     for name, fn, rel in (("STATS", stats_block, "README.md"), ("AUTO", progress_block, "PROGRESS.md")):
         p = ROOT / rel
         if p.exists():
-            out[p] = nav.update_block(p, name, fn(r))
+            out[p] = nav.update_block(p, name, fn(r, out))
         else:
             r.problems.append("%s not found; auto block %s skipped" % (rel, name))
     changed = []
