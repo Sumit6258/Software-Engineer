@@ -72,20 +72,20 @@ Subject status: **In progress** · [Subject index](../../docs/01-computer-scienc
 
 ### 1.5 Computer components
 
-10 topics · 0 drafted or better
+10 topics · 10 drafted or better
 
 | ID | Topic | Documented in / planned location | Status |
 | --- | --- | --- | --- |
-| `01.05.01` | CPU | `docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/` | Not started |
-| `01.05.02` | GPU | `docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/` | Not started |
-| `01.05.03` | RAM | `docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/` | Not started |
-| `01.05.04` | ROM | `docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/` | Not started |
-| `01.05.05` | Cache | `docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/` | Not started |
-| `01.05.06` | SSD and HDD | `docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/` | Not started |
-| `01.05.07` | Motherboard | `docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/` | Not started |
-| `01.05.08` | Power supply | `docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/` | Not started |
-| `01.05.09` | Network interface card | `docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/` | Not started |
-| `01.05.10` | Peripheral devices | `docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/` | Not started |
+| `01.05.01` | CPU | [The CPU and the GPU](../../docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/01-cpu-and-gpu.md) | Drafted |
+| `01.05.02` | GPU | [The CPU and the GPU](../../docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/01-cpu-and-gpu.md) | Drafted |
+| `01.05.03` | RAM | [Memory and Storage: RAM, ROM, Cache, SSD and HDD](../../docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/02-memory-and-storage.md) | Drafted |
+| `01.05.04` | ROM | [Memory and Storage: RAM, ROM, Cache, SSD and HDD](../../docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/02-memory-and-storage.md) | Drafted |
+| `01.05.05` | Cache | [Memory and Storage: RAM, ROM, Cache, SSD and HDD](../../docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/02-memory-and-storage.md) | Drafted |
+| `01.05.06` | SSD and HDD | [Memory and Storage: RAM, ROM, Cache, SSD and HDD](../../docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/02-memory-and-storage.md) | Drafted |
+| `01.05.07` | Motherboard | [Motherboard, Power Supply, Network Interface and Peripherals](../../docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/03-motherboard-power-nic-and-peripherals.md) | Drafted |
+| `01.05.08` | Power supply | [Motherboard, Power Supply, Network Interface and Peripherals](../../docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/03-motherboard-power-nic-and-peripherals.md) | Drafted |
+| `01.05.09` | Network interface card | [Motherboard, Power Supply, Network Interface and Peripherals](../../docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/03-motherboard-power-nic-and-peripherals.md) | Drafted |
+| `01.05.10` | Peripheral devices | [Motherboard, Power Supply, Network Interface and Peripherals](../../docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/03-motherboard-power-nic-and-peripherals.md) | Drafted |
 
 ### 1.6 How computers execute instructions
 

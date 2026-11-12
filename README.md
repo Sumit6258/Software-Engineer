@@ -85,8 +85,8 @@ Each chapter directory corresponds to one group in the source syllabus, so the d
 | Numbered subject areas | 64 |
 | Chapters (groups) in the syllabus | 246 |
 | Syllabus topics inside the 64 subjects | 3032 |
-| Lessons written | 18 |
-| Topics covered by a drafted-or-better lesson | 34 of 3032 (1.1%) |
+| Lessons written | 21 |
+| Topics covered by a drafted-or-better lesson | 44 of 3032 (1.5%) |
 | Topics reviewed or complete | 0 |
 <!-- END STATS -->
 

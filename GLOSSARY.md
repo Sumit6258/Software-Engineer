@@ -9,6 +9,7 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 - **Aliasing (sampling)**: The effect of sampling a signal too slowly, so that high frequencies appear as lower ones. See [Image, Audio and Video Encoding](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/06-image-audio-and-video-encoding.md).
 - **Alignment**: Placing a value at an address that is a multiple of its size, which many processors require or prefer. See [Bits, Bytes, Words and Memory Addresses](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/01-bits-bytes-words-and-addresses.md).
 - **ALU (arithmetic logic unit)**: The part of a processor that performs integer arithmetic and bitwise operations. See [Binary Arithmetic](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/03-binary-arithmetic.md).
+- **Amdahl's law**: The speed-up from parallelism is limited by the part of the work that must stay serial: S = 1 / ((1 - p) + p / n). See [The CPU and the GPU](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/01-cpu-and-gpu.md).
 
 ## B
 
@@ -27,6 +28,9 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 
 ## C
 
+- **Cache**: A small, fast memory holding copies of recently used data from a larger, slower memory. See [Memory and Storage: RAM, ROM, Cache, SSD and HDD](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/02-memory-and-storage.md).
+- **Cache hit and cache miss**: A hit finds the requested data in the cache; a miss must fetch it from the next level. See [Memory and Storage: RAM, ROM, Cache, SSD and HDD](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/02-memory-and-storage.md).
+- **Cache line**: The unit of data a cache moves at a time, typically 64 bytes. See [Memory and Storage: RAM, ROM, Cache, SSD and HDD](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/02-memory-and-storage.md).
 - **Carry**: The value passed to the next column when a column's sum is too large for one digit. See [Binary Arithmetic](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/03-binary-arithmetic.md).
 - **Carry-lookahead adder**: An adder that computes all carries in parallel from generate and propagate signals instead of waiting for them to ripple. See [Binary Arithmetic](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/03-binary-arithmetic.md).
 - **Catastrophic cancellation**: The loss of most significant digits when two nearly equal floating-point numbers are subtracted. See [Floating-Point Representation and IEEE 754](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/05-floating-point-and-ieee-754.md).
@@ -34,11 +38,14 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 - **Checksum**: A short value computed from data, such as a sum, used to detect accidental changes. See [Error Detection and Correction](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/02-error-detection-and-correction.md).
 - **Chroma subsampling**: Storing colour at lower resolution than brightness, because the eye is less sensitive to colour detail. See [Image, Audio and Video Encoding](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/06-image-audio-and-video-encoding.md).
 - **Client**: A program (or the machine running it) that initiates a request for a service. See [Client-Server and Remote Computing](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/03-client-server-and-remote-computing.md).
+- **Clock rate**: The frequency, in hertz, of the signal that paces a processor. See [The CPU and the GPU](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/01-cpu-and-gpu.md).
 - **Code point**: The number Unicode assigns to a character, written U+ followed by hexadecimal digits. See [Unicode, UTF-8 and UTF-16](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/04-unicode-utf-8-and-utf-16.md).
 - **Code unit**: The fixed-size piece an encoding is built from: one byte in UTF-8, 16 bits in UTF-16. See [Unicode, UTF-8 and UTF-16](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/04-unicode-utf-8-and-utf-16.md).
 - **Codec and container**: A codec compresses and decompresses a stream; a container packages compressed streams into a file. See [Image, Audio and Video Encoding](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/06-image-audio-and-video-encoding.md).
 - **Combinational logic**: Logic whose output depends only on its present inputs, with no memory. See [Logic Gates and Truth Tables](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/01-logic-gates-and-truth-tables.md).
 - **Computer**: A programmable machine that follows stored instructions to turn input into output, using memory to hold both instructions and data. See [What Is a Computer?](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/01-what-is-a-computer.md).
+- **Core**: A complete processing unit of a CPU; a multi-core CPU has several on one chip. See [The CPU and the GPU](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/01-cpu-and-gpu.md).
+- **CPI (cycles per instruction)**: The average number of clock cycles a processor spends per instruction. See [The CPU and the GPU](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/01-cpu-and-gpu.md).
 - **CRC (cyclic redundancy check)**: An error-detecting code from polynomial division over GF(2), strong against bursts of errors. See [Error Detection and Correction](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/02-error-detection-and-correction.md).
 
 ## D
@@ -46,7 +53,10 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 - **Data model (ILP32, LP64, LLP64)**: The set of sizes a C platform gives to int, long and pointers. See [Integers, Floating-Point Numbers and Endianness in Memory](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/05-integers-floats-and-endianness-in-memory.md).
 - **De Morgan's laws**: The complement of an AND is the OR of the complements, and the complement of an OR is the AND of the complements. See [Boolean Algebra and De Morgan's Laws](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/02-boolean-algebra-and-de-morgans-laws.md).
 - **Deserialization**: Rebuilding in-memory data from its serialized bytes. See [Data Serialization](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/07-data-serialization.md).
+- **DMA (direct memory access)**: Transfer of data between a device and memory without the CPU handling each byte. See [Motherboard, Power Supply, Network Interface and Peripherals](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/03-motherboard-power-nic-and-peripherals.md).
 - **Don't-care condition**: An input combination whose output does not matter, which minimisation may treat as 0 or 1. See [Logic Simplification](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/03-logic-simplification.md).
+- **DRAM and SRAM**: DRAM stores a bit as charge on a capacitor and needs refresh; SRAM holds a bit in a latch and is faster but larger. See [Memory and Storage: RAM, ROM, Cache, SSD and HDD](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/02-memory-and-storage.md).
+- **Driver**: Operating-system software that knows how to control a particular device. See [Motherboard, Power Supply, Network Interface and Peripherals](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/03-motherboard-power-nic-and-peripherals.md).
 
 ## E
 
@@ -58,6 +68,7 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 
 - **Firmware**: Software stored permanently in a device's own non-volatile memory and closely tied to that device. See [What Is a Computer?](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/01-what-is-a-computer.md).
 - **Fixed-point**: A representation that stores a number as an integer with an agreed, fixed position of the radix point. See [Floating-Point Representation and IEEE 754](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/05-floating-point-and-ieee-754.md).
+- **Flash memory**: Non-volatile memory erased in blocks; used for firmware, SSDs and phones. See [Memory and Storage: RAM, ROM, Cache, SSD and HDD](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/02-memory-and-storage.md).
 - **Floating-point**: A representation of numbers as a sign, an exponent and a fraction, like scientific notation in base 2. See [Floating-Point Representation and IEEE 754](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/05-floating-point-and-ieee-754.md).
 - **Fraction (significand field)**: The field that holds the digits after the leading 1 of a floating-point number's significand. See [Floating-Point Representation and IEEE 754](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/05-floating-point-and-ieee-754.md).
 - **Full adder and half adder**: Circuits that add bits: a half adder adds two bits; a full adder also accepts an incoming carry. See [Binary Arithmetic](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/03-binary-arithmetic.md).
@@ -65,6 +76,7 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 
 ## G
 
+- **GPU (graphics processing unit)**: A processor with thousands of simple cores that runs the same operation on many data elements at once. See [The CPU and the GPU](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/01-cpu-and-gpu.md).
 - **Grapheme cluster**: What a reader perceives as one character, which may be several code points. See [Unicode, UTF-8 and UTF-16](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/04-unicode-utf-8-and-utf-16.md).
 - **Gray code**: A binary code in which consecutive values differ in exactly one bit. See [Positional Number Systems](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/01-positional-number-systems.md).
 
@@ -80,6 +92,7 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 ## I
 
 - **IEEE 754**: The standard that defines floating-point formats, rounding and special values. See [Floating-Point Representation and IEEE 754](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/05-floating-point-and-ieee-754.md).
+- **Interrupt**: A signal from a device that makes the CPU pause its work and run a handler. See [Motherboard, Power Supply, Network Interface and Peripherals](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/03-motherboard-power-nic-and-peripherals.md).
 
 ## K
 
@@ -90,23 +103,30 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 
 - **Latency**: The time a message takes to travel from one place to another. See [Client-Server and Remote Computing](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/03-client-server-and-remote-computing.md).
 - **Little-endian**: Byte order that stores the least significant byte at the lowest address. See [Integers, Floating-Point Numbers and Endianness in Memory](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/05-integers-floats-and-endianness-in-memory.md).
+- **Locality of reference**: The tendency of programs to reuse recent data (temporal) and to touch nearby data (spatial). See [Memory and Storage: RAM, ROM, Cache, SSD and HDD](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/02-memory-and-storage.md).
 - **Logic gate**: A circuit that computes a Boolean function of one or more binary inputs. See [Logic Gates and Truth Tables](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/01-logic-gates-and-truth-tables.md).
+- **Logical CPU and hardware thread**: One of the instruction streams a core can run; the operating system counts each as a CPU. See [The CPU and the GPU](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/01-cpu-and-gpu.md).
 - **Loopback address**: An address that refers to the local machine itself; `127.0.0.1` in IPv4. See [Client-Server and Remote Computing](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/03-client-server-and-remote-computing.md).
 - **Lossless and lossy compression**: Lossless compression is exactly reversible; lossy compression discards information to be smaller. See [Image, Audio and Video Encoding](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/06-image-audio-and-video-encoding.md).
 
 ## M
 
+- **MAC address**: A 48-bit identifier of a network interface on a local network. See [Motherboard, Power Supply, Network Interface and Peripherals](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/03-motherboard-power-nic-and-peripherals.md).
 - **Machine epsilon**: The gap between 1.0 and the next larger representable floating-point number. See [Floating-Point Representation and IEEE 754](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/05-floating-point-and-ieee-754.md).
 - **Memory (RAM)**: Fast, volatile working storage that the processor accesses directly by address. See [What Is a Computer?](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/01-what-is-a-computer.md).
+- **Memory hierarchy**: The layering of registers, caches, main memory and storage from small and fast to large and slow. See [Memory and Storage: RAM, ROM, Cache, SSD and HDD](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/02-memory-and-storage.md).
+- **Memory-mapped I/O**: Controlling a device by reading and writing registers that appear at memory addresses. See [Motherboard, Power Supply, Network Interface and Peripherals](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/03-motherboard-power-nic-and-peripherals.md).
 - **Microcontroller**: A single-chip computer combining a small processor, memory and peripherals, used in embedded systems. See [Types of Computers](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/02-types-of-computers.md).
 - **Minterm and maxterm**: A minterm is a product that is 1 for exactly one input row; a maxterm is a sum that is 0 for exactly one row. See [Boolean Algebra and De Morgan's Laws](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/02-boolean-algebra-and-de-morgans-laws.md).
 - **Mojibake**: Garbled text that results from decoding bytes with a different encoding from the one used to write them. See [Character Encoding and ASCII](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/03-character-encoding-and-ascii.md).
+- **Motherboard**: The main circuit board that connects and powers a computer's components. See [Motherboard, Power Supply, Network Interface and Peripherals](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/03-motherboard-power-nic-and-peripherals.md).
 
 ## N
 
 - **NaN (not a number)**: The floating-point value produced by invalid operations; every comparison with it is false. See [Floating-Point Representation and IEEE 754](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/05-floating-point-and-ieee-754.md).
 - **Network byte order**: Big-endian order, specified for multi-byte fields in Internet protocols. See [Integers, Floating-Point Numbers and Endianness in Memory](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/05-integers-floats-and-endianness-in-memory.md).
 - **Nibble**: Four bits; one hexadecimal digit. See [Positional Number Systems](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/01-positional-number-systems.md).
+- **NIC (network interface card)**: The hardware that connects a computer to a network. See [Motherboard, Power Supply, Network Interface and Peripherals](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/03-motherboard-power-nic-and-peripherals.md).
 - **Normalisation (Unicode)**: Converting equivalent code-point sequences to one canonical form, such as NFC. See [Unicode, UTF-8 and UTF-16](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/04-unicode-utf-8-and-utf-16.md).
 - **Number and numeral**: A number is an abstract quantity; a numeral is a written representation of it, such as `13`, `XIII` or `1101`. See [Positional Number Systems](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/01-positional-number-systems.md).
 - **Nyquist-Shannon sampling theorem**: A signal limited to frequencies below f can be reconstructed from samples taken at more than 2f. See [Image, Audio and Video Encoding](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/06-image-audio-and-video-encoding.md).
@@ -123,9 +143,13 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 
 - **Padding**: Unused bytes a compiler inserts so that fields are aligned. See [Bits, Bytes, Words and Memory Addresses](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/01-bits-bytes-words-and-addresses.md).
 - **Parity bit**: An extra bit chosen to make the number of 1 bits even (or odd); detects any odd number of flipped bits. See [Error Detection and Correction](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/02-error-detection-and-correction.md).
+- **PCI Express (PCIe)**: A point-to-point serial interconnect made of lanes, used for graphics cards, SSDs and other devices. See [Motherboard, Power Supply, Network Interface and Peripherals](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/03-motherboard-power-nic-and-peripherals.md).
+- **Peripheral**: A device attached to a computer for input, output, storage or communication. See [Motherboard, Power Supply, Network Interface and Peripherals](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/03-motherboard-power-nic-and-peripherals.md).
 - **Pixel**: One element of a raster image, usually stored as red, green and blue intensities. See [Image, Audio and Video Encoding](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/06-image-audio-and-video-encoding.md).
 - **Pointer**: A variable whose value is a memory address. See [Bits, Bytes, Words and Memory Addresses](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/01-bits-bytes-words-and-addresses.md).
+- **Polling**: Repeatedly checking a device's status instead of waiting for it to signal. See [Motherboard, Power Supply, Network Interface and Peripherals](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/03-motherboard-power-nic-and-peripherals.md).
 - **Positional notation**: A way of writing numbers in which a digit's position determines its weight. See [Positional Number Systems](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/01-positional-number-systems.md).
+- **Power supply unit (PSU)**: The component that converts mains AC to regulated low-voltage DC. See [Motherboard, Power Supply, Network Interface and Peripherals](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/03-motherboard-power-nic-and-peripherals.md).
 - **Prime implicant**: A product term that implies the function and cannot be shrunk by removing a variable. See [Logic Simplification](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/03-logic-simplification.md).
 - **Protocol**: An agreed set of message formats and rules that lets a client and a server cooperate. See [Client-Server and Remote Computing](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/03-client-server-and-remote-computing.md).
 
@@ -136,6 +160,7 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 ## R
 
 - **Redundancy**: Extra information added to data so that damage can be detected or repaired. See [Error Detection and Correction](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/02-error-detection-and-correction.md).
+- **ROM (read-only memory)**: Non-volatile memory, today usually a flash chip holding firmware. See [Memory and Storage: RAM, ROM, Cache, SSD and HDD](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/02-memory-and-storage.md).
 - **Round to nearest, ties to even**: The default IEEE 754 rounding rule: pick the nearest representable value, and on a tie the one with an even last bit. See [Floating-Point Representation and IEEE 754](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/05-floating-point-and-ieee-754.md).
 
 ## S
@@ -148,6 +173,8 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 - **Server**: A program (or the machine running it) that waits for requests and provides a service. See [Client-Server and Remote Computing](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/03-client-server-and-remote-computing.md).
 - **Sign extension**: Widening a signed value by copying its sign bit into the new high bits. See [Signed Numbers and Two's Complement](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/04-signed-numbers-and-twos-complement.md).
 - **Sign-magnitude**: A signed representation with a sign bit and a magnitude. It has two zeros. See [Signed Numbers and Two's Complement](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/04-signed-numbers-and-twos-complement.md).
+- **SIMD and SIMT**: Executing one instruction on many data elements at once, in vector units (SIMD) or groups of GPU threads (SIMT). See [The CPU and the GPU](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/01-cpu-and-gpu.md).
+- **SSD and HDD**: A solid-state drive stores data in flash; a hard disk drive stores it magnetically on spinning platters. See [Memory and Storage: RAM, ROM, Cache, SSD and HDD](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/02-memory-and-storage.md).
 - **Stateless**: Describes a protocol in which each request carries everything needed to process it, so the server keeps no memory of earlier requests. See [Client-Server and Remote Computing](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/03-client-server-and-remote-computing.md).
 - **Stored-program concept**: The design in which instructions and data are both held as bit patterns in the same memory. See [What Is a Computer?](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/01-what-is-a-computer.md).
 - **Subnormal**: A floating-point number smaller than the smallest normal number, stored without a hidden bit, giving gradual underflow. See [Floating-Point Representation and IEEE 754](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/05-floating-point-and-ieee-754.md).
@@ -175,8 +202,10 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 
 ## W
 
+- **Wear levelling**: Spreading writes evenly across flash cells so that none wears out early. See [Memory and Storage: RAM, ROM, Cache, SSD and HDD](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/02-memory-and-storage.md).
 - **Word**: The natural unit of data of a processor, commonly 16, 32 or 64 bits. See [Bits, Bytes, Words and Memory Addresses](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/01-bits-bytes-words-and-addresses.md).
 - **Wraparound**: Keeping only the low $n$ bits of a result, so values wrap modulo $2^n$. See [Binary Arithmetic](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/03-binary-arithmetic.md).
+- **Write-back and write-through**: Write-through updates memory on every write; write-back updates it only when a modified line is evicted. See [Memory and Storage: RAM, ROM, Cache, SSD and HDD](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/02-memory-and-storage.md).
 
 ## X
 

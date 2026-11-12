@@ -9,7 +9,7 @@ subject: 1
 
 > [Home](../../../README.md) › [Part I — Computer Science Foundations](../index.md) › Subject 1
 
-- **Status:** In progress (34 of 51 syllabus topics have a drafted lesson)
+- **Status:** In progress (44 of 51 syllabus topics have a drafted lesson)
 - **Source tags:** Start here · Beginner → Advanced
 - **Syllabus size:** 6 chapters, 51 topics
 
@@ -44,7 +44,7 @@ flowchart TD
     class C2 dr;
     class C3 dr;
     class C4 dr;
-    class C5 ns;
+    class C5 dr;
     class C6 ns;
 ```
 
@@ -152,22 +152,26 @@ Chapter index: [Chapter 4](04-boolean-logic/index.md)
 
 ### Chapter 5: Computer components
 
-10 topics · status: **Not started**
+10 topics · status: **Drafted**
 
-*Planned location:* `docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/`. No lessons yet.
+Chapter index: [Chapter 5](05-computer-components/index.md)
+
+- [The CPU and the GPU](05-computer-components/01-cpu-and-gpu.md) — What is inside a CPU, why clock speed alone does not measure performance, how cores and threads relate, and how a GPU trades flexibility for massive parallelism. *(Drafted)*
+- [Memory and Storage: RAM, ROM, Cache, SSD and HDD](05-computer-components/02-memory-and-storage.md) — Why computers have a hierarchy of memory and storage, how RAM, ROM, caches, SSDs and hard disks work, and how access patterns change performance, with a cache simulator and a storage model. *(Drafted)*
+- [Motherboard, Power Supply, Network Interface and Peripherals](05-computer-components/03-motherboard-power-nic-and-peripherals.md) — How the motherboard connects the components, what a power supply does and how to budget power, how a network interface card sends frames and what a MAC address is, and how peripherals talk to the processor. *(Drafted)*
 
 <details><summary>Syllabus topics in this chapter (10)</summary>
 
-- `01.05.01` CPU — *not started*
-- `01.05.02` GPU — *not started*
-- `01.05.03` RAM — *not started*
-- `01.05.04` ROM — *not started*
-- `01.05.05` Cache — *not started*
-- `01.05.06` SSD and HDD — *not started*
-- `01.05.07` Motherboard — *not started*
-- `01.05.08` Power supply — *not started*
-- `01.05.09` Network interface card — *not started*
-- `01.05.10` Peripheral devices — *not started*
+- `01.05.01` CPU — [The CPU and the GPU](05-computer-components/01-cpu-and-gpu.md)
+- `01.05.02` GPU — [The CPU and the GPU](05-computer-components/01-cpu-and-gpu.md)
+- `01.05.03` RAM — [Memory and Storage: RAM, ROM, Cache, SSD and HDD](05-computer-components/02-memory-and-storage.md)
+- `01.05.04` ROM — [Memory and Storage: RAM, ROM, Cache, SSD and HDD](05-computer-components/02-memory-and-storage.md)
+- `01.05.05` Cache — [Memory and Storage: RAM, ROM, Cache, SSD and HDD](05-computer-components/02-memory-and-storage.md)
+- `01.05.06` SSD and HDD — [Memory and Storage: RAM, ROM, Cache, SSD and HDD](05-computer-components/02-memory-and-storage.md)
+- `01.05.07` Motherboard — [Motherboard, Power Supply, Network Interface and Peripherals](05-computer-components/03-motherboard-power-nic-and-peripherals.md)
+- `01.05.08` Power supply — [Motherboard, Power Supply, Network Interface and Peripherals](05-computer-components/03-motherboard-power-nic-and-peripherals.md)
+- `01.05.09` Network interface card — [Motherboard, Power Supply, Network Interface and Peripherals](05-computer-components/03-motherboard-power-nic-and-peripherals.md)
+- `01.05.10` Peripheral devices — [Motherboard, Power Supply, Network Interface and Peripherals](05-computer-components/03-motherboard-power-nic-and-peripherals.md)
 
 </details>
 
@@ -195,7 +199,7 @@ Chapter index: [Chapter 4](04-boolean-logic/index.md)
 2. Chapter 2 — [Number systems](02-number-systems/index.md)
 3. Chapter 3 — [Data representation](03-data-representation/index.md)
 4. Chapter 4 — [Boolean logic](04-boolean-logic/index.md)
-5. Chapter 5 — Computer components
+5. Chapter 5 — [Computer components](05-computer-components/index.md)
 6. Chapter 6 — How computers execute instructions
 
 Within a chapter, read lessons in numeric order. Pick the later chapters only when the earlier ones feel comfortable; the syllabus orders them from fundamental to advanced.

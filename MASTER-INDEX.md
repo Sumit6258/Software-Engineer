@@ -6,7 +6,7 @@ Navigation across the entire library: all 15 parts, all 64 numbered subject area
 
 **Quick links:** [Start here](START-HERE.md) · [Learning paths](LEARNING-PATHS.md) · [Knowledge graph](KNOWLEDGE-GRAPH.md) · [Coverage matrix](curriculum/coverage-matrix.md) · [Progress](PROGRESS.md)
 
-**State:** 34 of 3032 subject topics have a drafted lesson.
+**State:** 44 of 3032 subject topics have a drafted lesson.
 
 ## [Part I — Computer Science Foundations](docs/01-computer-science-foundations/index.md)
 
@@ -33,7 +33,10 @@ Navigation across the entire library: all 15 parts, all 64 numbered subject area
     - [Logic Gates and Truth Tables](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/01-logic-gates-and-truth-tables.md) *(Drafted)*
     - [Boolean Algebra and De Morgan's Laws](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/02-boolean-algebra-and-de-morgans-laws.md) *(Drafted)*
     - [Logic Simplification](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/03-logic-simplification.md) *(Drafted)*
-  - Chapter 5: Computer components *(planned)*
+  - [Chapter 5: Computer components](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/index.md)
+    - [The CPU and the GPU](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/01-cpu-and-gpu.md) *(Drafted)*
+    - [Memory and Storage: RAM, ROM, Cache, SSD and HDD](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/02-memory-and-storage.md) *(Drafted)*
+    - [Motherboard, Power Supply, Network Interface and Peripherals](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/03-motherboard-power-nic-and-peripherals.md) *(Drafted)*
   - Chapter 6: How computers execute instructions *(planned)*
 - **[2. Mathematics for Computer Science](docs/01-computer-science-foundations/02-mathematics-for-computer-science/index.md)** — Not started
   - Chapter 1: Basic mathematics *(planned)*

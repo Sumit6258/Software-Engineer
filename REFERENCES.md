@@ -20,7 +20,7 @@ The master index of sources. Each lesson also ends with its own *Further reading
 
 ## Verification log
 
-Claims that were checked against sources while writing Subject 1, chapters 1 to 3 (checked 2026-11-01 by web search):
+Claims that were checked against sources while writing Subject 1, chapters 1 to 5 (checked 2026-11-01 by web search):
 
 | Claim in the lessons | Check |
 |---|---|
@@ -29,6 +29,7 @@ Claims that were checked against sources while writing Subject 1, chapters 1 to 
 | C++20 requires two's complement (proposal P1236R1), and signed overflow remains undefined behaviour in both languages | Confirmed from the proposal and discussion of it. |
 | Python 3.12's built-in `sum()` uses compensated (Neumaier) summation for floats | Confirmed from the Python 3.12 "What's New" entry (gh-100425). It was also observed: a million additions of 0.1 gave no error with `sum()` on Python 3.12 but an error of about 1.3e-6 with an explicit loop. |
 | The WHATWG Encoding Standard describes UTF-8 as the most appropriate encoding for the interchange of Unicode | Confirmed from the standard at encoding.spec.whatwg.org and its 2018 snapshot. |
+| The MAC address range 00:00:5e:00:53:00 to 00:00:5e:00:53:ff is reserved for documentation examples | Confirmed from RFC 7042 and the IANA Ethernet Numbers registry; RFC 9542 has since replaced RFC 7042, and the lesson cites RFC 9542. |
 
 Executed claims: every runnable code block in the lessons was run (Python 3.12 and GCC 13 in the authoring environment) and its output compared with the documented output; see [PROGRESS.md](PROGRESS.md).
 
@@ -39,4 +40,5 @@ The historical, factual and incident details in the lessons come from standard s
 - **History:** the Analytical Engine and Ada Lovelace's 1843 notes; Turing 1936; the 1945 EDVAC report; the Manchester "Baby" (1948) and EDSAC (1949); ENIAC reprogramming effort; the Setun ternary computer; the CDC 6600's ones'-complement arithmetic; Shannon's thesis and papers; the origin of the word *byte* and the System/360; the standardisation of ASCII; the design of UTF-8 by Thompson and Pike in 1992.
 - **Incidents:** the Patriot (GAO/IMTEC-92-26) and Ariane 5 (Flight 501 Inquiry Board) details.
 - **Practice:** MySQL's `utf8` being an alias for `utf8mb3`; the four QR-code error-correction levels; which formats use which byte order; CRC-32 in Ethernet, ZIP and PNG; byte-swap instructions on x86 and Arm; bit order on UART and Ethernet; the number of Unicode characters assigned.
+- **Hardware figures:** typical sizes and latencies of caches, DRAM, SSDs and hard disks; PCIe encoding and per-lane rates; USB, SATA and NVMe speeds; 80 PLUS and PUE; the dates and names of Spectre, Meltdown and Row Hammer; big.LITTLE; Amdahl's 1967 paper. The lessons label the figures as orders of magnitude, but they have not been checked against datasheets or the original papers.
 - **Code validated by its own reader only:** the PNG and WAV files the lessons build were checked by the lessons' own readers (structure and CRC) and by Python's `wave` module, **not** by an independent image or audio decoder.

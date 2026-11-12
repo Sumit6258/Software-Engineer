@@ -341,5 +341,5 @@ A smaller expression is not always the best circuit. Sharing sub-expressions bet
 
 ## Navigation
 
-**Previous:** [Boolean Algebra and De Morgan's Laws](02-boolean-algebra-and-de-morgans-laws.md) · **Up:** [Chapter 4: Boolean logic](index.md) · **Next:** [subject index](../index.md)
+**Previous:** [Boolean Algebra and De Morgan's Laws](02-boolean-algebra-and-de-morgans-laws.md) · **Up:** [Chapter 4: Boolean logic](index.md) · **Next:** [The CPU and the GPU](../05-computer-components/01-cpu-and-gpu.md)
 <!-- END FOOTER -->

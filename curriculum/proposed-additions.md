@@ -25,6 +25,6 @@ A proposal becomes an **addition** when a lesson introduces it and declares it w
 | 15 | Differential privacy | Subject 31 or 46 | The principal formal privacy guarantee; the source names privacy-preserving computation only generally | Proposed |
 | 16 | Entity-component-system architecture | Subject 47 | The dominant data-oriented game architecture | Proposed |
 | 17 | Kalman filtering | Subject 51 | The classic state-estimation tool behind sensor fusion | Proposed |
-| 18 | Amdahl's law, Gustafson's law and the roofline model | Subject 53 | The core performance models; the source names only performance modelling in general | Proposed |
+| 18 | Amdahl's law, Gustafson's law and the roofline model | Subject 53 | The core performance models; the source names only performance modelling in general | Partly added: Amdahl's law is introduced in Subject 1, chapter 5; Gustafson's law and the roofline model remain proposed |
 | 19 | Named safety-critical standards (DO-178C, ISO 26262, IEC 61508) | Subject 57 or 59 | The source mentions functional safety but names none of these standards | Proposed |
 | 20 | Lambda calculus | Subject 7 or 64 | Theoretical root of functional programming; absent by name | Proposed |
