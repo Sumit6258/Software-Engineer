@@ -6,10 +6,13 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 
 - **Absorption**: In floating-point addition, the loss of a small operand when it is added to a much larger one, because the sum rounds back to the larger value. See [Floating-Point Representation and IEEE 754](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/05-floating-point-and-ieee-754.md).
 - **Address (memory address)**: The number that identifies one byte-sized cell of memory. See [Bits, Bytes, Words and Memory Addresses](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/01-bits-bytes-words-and-addresses.md).
+- **Addressing mode**: The rule an instruction uses to say where its memory operand is: an address written in the instruction, an address held in a register, a register plus an offset, or an address relative to the PC. See [The Fetch-Decode-Execute Cycle](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md).
 - **Aliasing (sampling)**: The effect of sampling a signal too slowly, so that high frequencies appear as lower ones. See [Image, Audio and Video Encoding](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/06-image-audio-and-video-encoding.md).
 - **Alignment**: Placing a value at an address that is a multiple of its size, which many processors require or prefer. See [Bits, Bytes, Words and Memory Addresses](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/01-bits-bytes-words-and-addresses.md).
 - **ALU (arithmetic logic unit)**: The part of a processor that performs integer arithmetic and bitwise operations. See [Binary Arithmetic](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/03-binary-arithmetic.md).
 - **Amdahl's law**: The speed-up from parallelism is limited by the part of the work that must stay serial: S = 1 / ((1 - p) + p / n). See [The CPU and the GPU](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/01-cpu-and-gpu.md).
+- **Assembler**: A program that translates assembly language into machine code, replacing labels with addresses. See [The Fetch-Decode-Execute Cycle](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md).
+- **Assembly language**: A readable text form of machine code in which each instruction is a mnemonic followed by its operands. See [The Fetch-Decode-Execute Cycle](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md).
 
 ## B
 
@@ -44,6 +47,7 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 - **Codec and container**: A codec compresses and decompresses a stream; a container packages compressed streams into a file. See [Image, Audio and Video Encoding](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/06-image-audio-and-video-encoding.md).
 - **Combinational logic**: Logic whose output depends only on its present inputs, with no memory. See [Logic Gates and Truth Tables](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/01-logic-gates-and-truth-tables.md).
 - **Computer**: A programmable machine that follows stored instructions to turn input into output, using memory to hold both instructions and data. See [What Is a Computer?](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/01-what-is-a-computer.md).
+- **Context switch**: Saving the registers of the running program and loading those of another, so that one processor can run many programs in turn. See [Interrupts and System Calls](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/02-interrupts-and-system-calls.md).
 - **Core**: A complete processing unit of a CPU; a multi-core CPU has several on one chip. See [The CPU and the GPU](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/01-cpu-and-gpu.md).
 - **CPI (cycles per instruction)**: The average number of clock cycles a processor spends per instruction. See [The CPU and the GPU](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/01-cpu-and-gpu.md).
 - **CRC (cyclic redundancy check)**: An error-detecting code from polynomial division over GF(2), strong against bursts of errors. See [Error Detection and Correction](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/02-error-detection-and-correction.md).
@@ -62,12 +66,15 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 
 - **Embedded computer**: A computer built into a larger product to control it, usually with a dedicated purpose. See [Types of Computers](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/02-types-of-computers.md).
 - **Exascale**: Computing at $10^{18}$ floating-point operations per second. See [Types of Computers](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/02-types-of-computers.md).
+- **Exception (fault)**: An event raised by the instruction being executed, such as division by zero or a protection violation, that transfers control to a handler in the kernel. See [Interrupts and System Calls](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/02-interrupts-and-system-calls.md).
 - **Exponent (floating point)**: The field that scales the significand by a power of two. See [Floating-Point Representation and IEEE 754](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/05-floating-point-and-ieee-754.md).
 
 ## F
 
+- **Fetch-decode-execute cycle**: The loop a processor repeats: fetch the instruction at the program counter, decode its fields, then execute it. See [The Fetch-Decode-Execute Cycle](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md).
 - **Firmware**: Software stored permanently in a device's own non-volatile memory and closely tied to that device. See [What Is a Computer?](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/01-what-is-a-computer.md).
 - **Fixed-point**: A representation that stores a number as an integer with an agreed, fixed position of the radix point. See [Floating-Point Representation and IEEE 754](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/05-floating-point-and-ieee-754.md).
+- **Flag (status flag)**: A one-bit processor register that records a property of the last result, for example the zero flag, which is set when an arithmetic result was zero. See [The Fetch-Decode-Execute Cycle](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md).
 - **Flash memory**: Non-volatile memory erased in blocks; used for firmware, SSDs and phones. See [Memory and Storage: RAM, ROM, Cache, SSD and HDD](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/02-memory-and-storage.md).
 - **Floating-point**: A representation of numbers as a sign, an exponent and a fraction, like scientific notation in base 2. See [Floating-Point Representation and IEEE 754](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/05-floating-point-and-ieee-754.md).
 - **Fraction (significand field)**: The field that holds the digits after the leading 1 of a floating-point number's significand. See [Floating-Point Representation and IEEE 754](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/05-floating-point-and-ieee-754.md).
@@ -92,17 +99,23 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 ## I
 
 - **IEEE 754**: The standard that defines floating-point formats, rounding and special values. See [Floating-Point Representation and IEEE 754](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/05-floating-point-and-ieee-754.md).
-- **Interrupt**: A signal from a device that makes the CPU pause its work and run a handler. See [Motherboard, Power Supply, Network Interface and Peripherals](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/03-motherboard-power-nic-and-peripherals.md).
+- **Immediate (operand)**: A constant written inside the instruction itself, such as the 5 in `LOADI R1, 5`. See [The Fetch-Decode-Execute Cycle](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md).
+- **Instruction set architecture (ISA)**: The contract between software and a processor: its instructions, registers, encoding and memory model. x86-64, Arm and RISC-V are ISAs. See [The Fetch-Decode-Execute Cycle](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md).
+- **Interrupt**: A signal from a device or the timer that makes the CPU pause its work, save its state and run a handler. See [Interrupts and System Calls](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/02-interrupts-and-system-calls.md); the device side is described in [Motherboard, Power Supply, Network Interface and Peripherals](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/03-motherboard-power-nic-and-peripherals.md).
+- **Interrupt handler**: The kernel code that runs when an interrupt, fault or system call occurs and that ends by returning to the interrupted program. See [Interrupts and System Calls](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/02-interrupts-and-system-calls.md).
+- **Interrupt storm**: Interrupts arriving so fast that the processor does nothing but handle them and programs make no progress. See [Interrupts and System Calls](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/02-interrupts-and-system-calls.md).
 
 ## K
 
 - **Karnaugh map**: A truth table arranged on a grid with Gray-code axes so that groups of adjacent 1s give simplified product terms. See [Logic Simplification](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/03-logic-simplification.md).
+- **Kernel (kernel mode)**: The core of the operating system, which runs in the processor's privileged mode with full access to the hardware. See [Interrupts and System Calls](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/02-interrupts-and-system-calls.md).
 - **Kibibyte (KiB), mebibyte, gibibyte**: Binary size units of 2 to the power 10, 20 and 30 bytes; kB, MB and GB mean powers of 1000. See [Bits, Bytes, Words and Memory Addresses](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/01-bits-bytes-words-and-addresses.md).
 
 ## L
 
 - **Latency**: The time a message takes to travel from one place to another. See [Client-Server and Remote Computing](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/03-client-server-and-remote-computing.md).
 - **Little-endian**: Byte order that stores the least significant byte at the lowest address. See [Integers, Floating-Point Numbers and Endianness in Memory](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/05-integers-floats-and-endianness-in-memory.md).
+- **Load/store architecture**: An instruction set in which only load and store instructions access memory and all others work on registers. Arm and RISC-V are examples. See [The Fetch-Decode-Execute Cycle](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md).
 - **Locality of reference**: The tendency of programs to reuse recent data (temporal) and to touch nearby data (spatial). See [Memory and Storage: RAM, ROM, Cache, SSD and HDD](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/02-memory-and-storage.md).
 - **Logic gate**: A circuit that computes a Boolean function of one or more binary inputs. See [Logic Gates and Truth Tables](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/01-logic-gates-and-truth-tables.md).
 - **Logical CPU and hardware thread**: One of the instruction streams a core can run; the operating system counts each as a CPU. See [The CPU and the GPU](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/01-cpu-and-gpu.md).
@@ -112,12 +125,14 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 ## M
 
 - **MAC address**: A 48-bit identifier of a network interface on a local network. See [Motherboard, Power Supply, Network Interface and Peripherals](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/03-motherboard-power-nic-and-peripherals.md).
+- **Machine code**: The binary instructions that a processor executes. See [The Fetch-Decode-Execute Cycle](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md).
 - **Machine epsilon**: The gap between 1.0 and the next larger representable floating-point number. See [Floating-Point Representation and IEEE 754](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/05-floating-point-and-ieee-754.md).
 - **Memory (RAM)**: Fast, volatile working storage that the processor accesses directly by address. See [What Is a Computer?](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/01-what-is-a-computer.md).
 - **Memory hierarchy**: The layering of registers, caches, main memory and storage from small and fast to large and slow. See [Memory and Storage: RAM, ROM, Cache, SSD and HDD](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/02-memory-and-storage.md).
 - **Memory-mapped I/O**: Controlling a device by reading and writing registers that appear at memory addresses. See [Motherboard, Power Supply, Network Interface and Peripherals](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/03-motherboard-power-nic-and-peripherals.md).
 - **Microcontroller**: A single-chip computer combining a small processor, memory and peripherals, used in embedded systems. See [Types of Computers](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/02-types-of-computers.md).
 - **Minterm and maxterm**: A minterm is a product that is 1 for exactly one input row; a maxterm is a sum that is 0 for exactly one row. See [Boolean Algebra and De Morgan's Laws](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/02-boolean-algebra-and-de-morgans-laws.md).
+- **Mnemonic**: The short name of an instruction in assembly language, such as `ADD`. See [The Fetch-Decode-Execute Cycle](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md).
 - **Mojibake**: Garbled text that results from decoding bytes with a different encoding from the one used to write them. See [Character Encoding and ASCII](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/03-character-encoding-and-ascii.md).
 - **Motherboard**: The main circuit board that connects and powers a computer's components. See [Motherboard, Power Supply, Network Interface and Peripherals](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/03-motherboard-power-nic-and-peripherals.md).
 
@@ -137,6 +152,8 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 - **Octet**: Exactly 8 bits; the term Internet standards use for a byte. See [Bits, Bytes, Words and Memory Addresses](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/01-bits-bytes-words-and-addresses.md).
 - **Offset binary (excess-K)**: A representation that stores value plus a constant K as an unsigned number. See [Signed Numbers and Two's Complement](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/04-signed-numbers-and-twos-complement.md).
 - **Ones' complement**: A signed representation in which a number is negated by inverting every bit. It has two zeros. See [Signed Numbers and Two's Complement](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/04-signed-numbers-and-twos-complement.md).
+- **Opcode**: The field of a machine instruction that says which operation to perform. See [The Fetch-Decode-Execute Cycle](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md).
+- **Operand**: A value an instruction works on: a register, a constant or a memory address. See [The Fetch-Decode-Execute Cycle](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md).
 - **Overflow**: A result outside the representable range. For unsigned numbers it shows as a carry out of the top bit; for signed numbers it is detected by the sign rule. See [Signed Numbers and Two's Complement](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/04-signed-numbers-and-twos-complement.md).
 
 ## P
@@ -150,7 +167,10 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 - **Polling**: Repeatedly checking a device's status instead of waiting for it to signal. See [Motherboard, Power Supply, Network Interface and Peripherals](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/03-motherboard-power-nic-and-peripherals.md).
 - **Positional notation**: A way of writing numbers in which a digit's position determines its weight. See [Positional Number Systems](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/01-positional-number-systems.md).
 - **Power supply unit (PSU)**: The component that converts mains AC to regulated low-voltage DC. See [Motherboard, Power Supply, Network Interface and Peripherals](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/03-motherboard-power-nic-and-peripherals.md).
+- **Preemptive multitasking**: Running many programs on one processor by using a timer interrupt to take the CPU from each in turn. See [Interrupts and System Calls](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/02-interrupts-and-system-calls.md).
 - **Prime implicant**: A product term that implies the function and cannot be shrunk by removing a variable. See [Logic Simplification](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/03-logic-simplification.md).
+- **Privileged instruction**: An instruction that only kernel mode may execute, such as halting the processor or talking to a device. See [Interrupts and System Calls](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/02-interrupts-and-system-calls.md).
+- **Program counter (PC)**: The register that holds the address of the next instruction to fetch. See [The Fetch-Decode-Execute Cycle](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md).
 - **Protocol**: An agreed set of message formats and rules that lets a client and a server cooperate. See [Client-Server and Remote Computing](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/03-client-server-and-remote-computing.md).
 
 ## Q
@@ -160,6 +180,7 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 ## R
 
 - **Redundancy**: Extra information added to data so that damage can be detected or repaired. See [Error Detection and Correction](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/02-error-detection-and-correction.md).
+- **Register**: A small, fast storage location inside the CPU that the ALU can use directly. See [The Fetch-Decode-Execute Cycle](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md).
 - **ROM (read-only memory)**: Non-volatile memory, today usually a flash chip holding firmware. See [Memory and Storage: RAM, ROM, Cache, SSD and HDD](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/02-memory-and-storage.md).
 - **Round to nearest, ties to even**: The default IEEE 754 rounding rule: pick the nearest representable value, and on a tie the one with an even last bit. See [Floating-Point Representation and IEEE 754](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/05-floating-point-and-ieee-754.md).
 
@@ -181,10 +202,12 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 - **Sum of products and product of sums**: Two standard forms of a Boolean expression: an OR of AND terms, or an AND of OR terms. See [Boolean Algebra and De Morgan's Laws](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/02-boolean-algebra-and-de-morgans-laws.md).
 - **Supercomputer**: A system built to run one very large job across a very large number of processors in parallel. See [Types of Computers](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/02-types-of-computers.md).
 - **Surrogate pair**: Two UTF-16 code units that together encode a code point above U+FFFF. See [Unicode, UTF-8 and UTF-16](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/04-unicode-utf-8-and-utf-16.md).
+- **System call**: A request from a program to the kernel, made with a special instruction that enters the kernel through the vector table. See [Interrupts and System Calls](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/02-interrupts-and-system-calls.md).
 
 ## T
 
 - **Tag-length-value (TLV)**: A format in which each field is a tag, a length and a value, so readers can skip unknown fields. See [Data Serialization](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/07-data-serialization.md).
+- **Timer interrupt**: An interrupt raised by a hardware timer at regular intervals, which lets the kernel regain control and switch programs. See [Interrupts and System Calls](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/02-interrupts-and-system-calls.md).
 - **Truth table**: A table listing a function's output for every combination of inputs. See [Logic Gates and Truth Tables](docs/01-computer-science-foundations/01-computer-fundamentals/04-boolean-logic/01-logic-gates-and-truth-tables.md).
 - **Two's complement**: The standard signed integer representation, in which the top bit has negative weight and negation is invert-and-add-one. See [Signed Numbers and Two's Complement](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/04-signed-numbers-and-twos-complement.md).
 
@@ -193,11 +216,13 @@ Short definitions of the terms introduced so far, each linking to the lesson tha
 - **Ulp (unit in the last place)**: The gap between a floating-point number and the next representable one. See [Floating-Point Representation and IEEE 754](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/05-floating-point-and-ieee-754.md).
 - **Unicode**: The standard that assigns a unique code point to every character of every writing system. See [Unicode, UTF-8 and UTF-16](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/04-unicode-utf-8-and-utf-16.md).
 - **Unsigned**: Interpreting a bit pattern as a non-negative integer from 0 to $2^n - 1$. See [Signed Numbers and Two's Complement](docs/01-computer-science-foundations/01-computer-fundamentals/02-number-systems/04-signed-numbers-and-twos-complement.md).
+- **User mode**: The restricted processor state in which ordinary programs run, with no privileged instructions and no access to kernel memory. See [Interrupts and System Calls](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/02-interrupts-and-system-calls.md).
 - **UTF-16**: A Unicode encoding that uses one or two 16-bit code units per code point. See [Unicode, UTF-8 and UTF-16](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/04-unicode-utf-8-and-utf-16.md).
 - **UTF-8**: A variable-length Unicode encoding of one to four bytes that is ASCII-compatible. See [Unicode, UTF-8 and UTF-16](docs/01-computer-science-foundations/01-computer-fundamentals/03-data-representation/04-unicode-utf-8-and-utf-16.md).
 
 ## V
 
+- **Vector table**: A table in memory holding the address of the handler for each kind of interrupt, fault or system call. See [Interrupts and System Calls](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/02-interrupts-and-system-calls.md).
 - **Von Neumann architecture**: A stored-program design in which instructions and data share one memory. See [What Is a Computer?](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/01-what-is-a-computer.md).
 
 ## W

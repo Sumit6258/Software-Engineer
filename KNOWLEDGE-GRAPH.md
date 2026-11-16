@@ -103,7 +103,7 @@ flowchart TB
     classDef ns fill:#eceff1,stroke:#78909c,color:#263238;
     classDef ip fill:#fff8e1,stroke:#f9a825,color:#263238;
     classDef dr fill:#e8f5e9,stroke:#2e7d32,color:#1b2a1d;
-    class S1 ip;
+    class S1 dr;
     class S2 ns;
     class S3 ns;
     class S4 ns;

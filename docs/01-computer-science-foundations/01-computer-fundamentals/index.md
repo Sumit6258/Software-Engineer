@@ -9,7 +9,7 @@ subject: 1
 
 > [Home](../../../README.md) › [Part I — Computer Science Foundations](../index.md) › Subject 1
 
-- **Status:** In progress (44 of 51 syllabus topics have a drafted lesson)
+- **Status:** Drafted (51 of 51 syllabus topics have a drafted lesson)
 - **Source tags:** Start here · Beginner → Advanced
 - **Syllabus size:** 6 chapters, 51 topics
 
@@ -45,7 +45,7 @@ flowchart TD
     class C3 dr;
     class C4 dr;
     class C5 dr;
-    class C6 ns;
+    class C6 dr;
 ```
 
 ## Chapters and topics
@@ -177,19 +177,22 @@ Chapter index: [Chapter 5](05-computer-components/index.md)
 
 ### Chapter 6: How computers execute instructions
 
-7 topics · status: **Not started**
+7 topics · status: **Drafted**
 
-*Planned location:* `docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/`. No lessons yet.
+Chapter index: [Chapter 6](06-how-computers-execute-instructions/index.md)
+
+- [The Fetch-Decode-Execute Cycle](06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md) — How a processor runs a program one instruction at a time: the program counter, registers and memory, how an instruction is encoded in bits, and a working Python simulator and assembler for a tiny 8-bit computer. *(Drafted)*
+- [Interrupts and System Calls](06-how-computers-execute-instructions/02-interrupts-and-system-calls.md) — How hardware events and programs interrupt the fetch-decode-execute cycle: interrupts, faults and system calls, user and kernel mode, vector tables, and why a handler must save what it changes, with a simulator that has a timer, a tiny kernel and a protection fault. *(Drafted)*
 
 <details><summary>Syllabus topics in this chapter (7)</summary>
 
-- `01.06.01` Fetch-decode-execute cycle — *not started*
-- `01.06.02` Machine instructions — *not started*
-- `01.06.03` Registers — *not started*
-- `01.06.04` Memory access — *not started*
-- `01.06.05` Interrupts — *not started*
-- `01.06.06` Instruction execution — *not started*
-- `01.06.07` System calls — *not started*
+- `01.06.01` Fetch-decode-execute cycle — [The Fetch-Decode-Execute Cycle](06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md)
+- `01.06.02` Machine instructions — [The Fetch-Decode-Execute Cycle](06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md)
+- `01.06.03` Registers — [The Fetch-Decode-Execute Cycle](06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md)
+- `01.06.04` Memory access — [The Fetch-Decode-Execute Cycle](06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md)
+- `01.06.05` Interrupts — [Interrupts and System Calls](06-how-computers-execute-instructions/02-interrupts-and-system-calls.md)
+- `01.06.06` Instruction execution — [The Fetch-Decode-Execute Cycle](06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md)
+- `01.06.07` System calls — [Interrupts and System Calls](06-how-computers-execute-instructions/02-interrupts-and-system-calls.md)
 
 </details>
 
@@ -200,7 +203,7 @@ Chapter index: [Chapter 5](05-computer-components/index.md)
 3. Chapter 3 — [Data representation](03-data-representation/index.md)
 4. Chapter 4 — [Boolean logic](04-boolean-logic/index.md)
 5. Chapter 5 — [Computer components](05-computer-components/index.md)
-6. Chapter 6 — How computers execute instructions
+6. Chapter 6 — [How computers execute instructions](06-how-computers-execute-instructions/index.md)
 
 Within a chapter, read lessons in numeric order. Pick the later chapters only when the earlier ones feel comfortable; the syllabus orders them from fundamental to advanced.
 

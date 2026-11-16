@@ -6,11 +6,11 @@ Navigation across the entire library: all 15 parts, all 64 numbered subject area
 
 **Quick links:** [Start here](START-HERE.md) · [Learning paths](LEARNING-PATHS.md) · [Knowledge graph](KNOWLEDGE-GRAPH.md) · [Coverage matrix](curriculum/coverage-matrix.md) · [Progress](PROGRESS.md)
 
-**State:** 44 of 3032 subject topics have a drafted lesson.
+**State:** 51 of 3032 subject topics have a drafted lesson.
 
 ## [Part I — Computer Science Foundations](docs/01-computer-science-foundations/index.md)
 
-- **[1. Computer Fundamentals](docs/01-computer-science-foundations/01-computer-fundamentals/index.md)** — In progress
+- **[1. Computer Fundamentals](docs/01-computer-science-foundations/01-computer-fundamentals/index.md)** — Drafted
   - [Chapter 1: Introduction to computers](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/index.md)
     - [What Is a Computer?](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/01-what-is-a-computer.md) *(Drafted)*
     - [Types of Computers](docs/01-computer-science-foundations/01-computer-fundamentals/01-introduction-to-computers/02-types-of-computers.md) *(Drafted)*
@@ -37,7 +37,9 @@ Navigation across the entire library: all 15 parts, all 64 numbered subject area
     - [The CPU and the GPU](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/01-cpu-and-gpu.md) *(Drafted)*
     - [Memory and Storage: RAM, ROM, Cache, SSD and HDD](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/02-memory-and-storage.md) *(Drafted)*
     - [Motherboard, Power Supply, Network Interface and Peripherals](docs/01-computer-science-foundations/01-computer-fundamentals/05-computer-components/03-motherboard-power-nic-and-peripherals.md) *(Drafted)*
-  - Chapter 6: How computers execute instructions *(planned)*
+  - [Chapter 6: How computers execute instructions](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/index.md)
+    - [The Fetch-Decode-Execute Cycle](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md) *(Drafted)*
+    - [Interrupts and System Calls](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/02-interrupts-and-system-calls.md) *(Drafted)*
 - **[2. Mathematics for Computer Science](docs/01-computer-science-foundations/02-mathematics-for-computer-science/index.md)** — Not started
   - Chapter 1: Basic mathematics *(planned)*
   - Chapter 2: Discrete mathematics *(planned)*

@@ -6,7 +6,7 @@
 
 ## 1. Computer Fundamentals
 
-Subject status: **In progress** · [Subject index](../../docs/01-computer-science-foundations/01-computer-fundamentals/index.md)
+Subject status: **Drafted** · [Subject index](../../docs/01-computer-science-foundations/01-computer-fundamentals/index.md)
 
 ### 1.1 Introduction to computers
 
@@ -89,17 +89,17 @@ Subject status: **In progress** · [Subject index](../../docs/01-computer-scienc
 
 ### 1.6 How computers execute instructions
 
-7 topics · 0 drafted or better
+7 topics · 7 drafted or better
 
 | ID | Topic | Documented in / planned location | Status |
 | --- | --- | --- | --- |
-| `01.06.01` | Fetch-decode-execute cycle | `docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/` | Not started |
-| `01.06.02` | Machine instructions | `docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/` | Not started |
-| `01.06.03` | Registers | `docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/` | Not started |
-| `01.06.04` | Memory access | `docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/` | Not started |
-| `01.06.05` | Interrupts | `docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/` | Not started |
-| `01.06.06` | Instruction execution | `docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/` | Not started |
-| `01.06.07` | System calls | `docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/` | Not started |
+| `01.06.01` | Fetch-decode-execute cycle | [The Fetch-Decode-Execute Cycle](../../docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md) | Drafted |
+| `01.06.02` | Machine instructions | [The Fetch-Decode-Execute Cycle](../../docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md) | Drafted |
+| `01.06.03` | Registers | [The Fetch-Decode-Execute Cycle](../../docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md) | Drafted |
+| `01.06.04` | Memory access | [The Fetch-Decode-Execute Cycle](../../docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md) | Drafted |
+| `01.06.05` | Interrupts | [Interrupts and System Calls](../../docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/02-interrupts-and-system-calls.md) | Drafted |
+| `01.06.06` | Instruction execution | [The Fetch-Decode-Execute Cycle](../../docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md) | Drafted |
+| `01.06.07` | System calls | [Interrupts and System Calls](../../docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/02-interrupts-and-system-calls.md) | Drafted |
 
 ## 2. Mathematics for Computer Science
 

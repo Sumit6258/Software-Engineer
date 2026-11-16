@@ -20,7 +20,7 @@ The project is built in the phases below, in order. Status is stated honestly; "
 
 ## Near-term order of work
 
-1. Finish Subject 1 (Computer Fundamentals): the remaining chapters in syllabus order.
+1. Subject 1 (Computer Fundamentals) is drafted in full: all six chapters and all 51 of its syllabus topics have a *Drafted* lesson. It still needs independent technical review before any of its lessons can be promoted beyond *Drafted*.
 2. Subject 2 (Mathematics for Computer Science), then Subject 3 (Digital Logic and Computer Organization), Subject 4 (Operating Systems) and Subject 5 (Computer Networking), completing Part I.
 3. Part II, beginning with Subject 6 (Programming Fundamentals).
 

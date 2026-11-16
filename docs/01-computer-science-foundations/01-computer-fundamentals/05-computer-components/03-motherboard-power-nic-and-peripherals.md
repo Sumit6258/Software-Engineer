@@ -207,7 +207,7 @@ Peripherals attach through standard interfaces:
 A device has a small **controller** with **registers** for commands, status and data. The CPU reaches them in one of two ways: with **memory-mapped I/O**, where the registers appear at ordinary physical addresses and the CPU uses normal loads and stores (the "addresses" of the [first chapter 3 lesson](../03-data-representation/01-bits-bytes-words-and-addresses.md) include device registers), or, on x86, with separate **port** instructions. Data then moves in one of three ways:
 
 1. **Polling.** The CPU repeatedly reads a status register to ask "are you ready?". It is simple but wastes processor time.
-2. **Interrupts.** The device signals the CPU when it needs attention, and the CPU runs a handler. The CPU is free in between, but each interrupt has overhead ([chapter 6](../index.md#chapter-6-how-computers-execute-instructions)).
+2. **Interrupts.** The device signals the CPU when it needs attention, and the CPU runs a handler. The CPU is free in between, but each interrupt has overhead ([Interrupts and System Calls](../06-how-computers-execute-instructions/02-interrupts-and-system-calls.md)).
 3. **Direct memory access (DMA).** For bulk data, a DMA engine copies data between the device and memory *without the CPU touching each byte*. The CPU only sets up the transfer and is interrupted once at the end.
 
 ```mermaid
@@ -338,5 +338,5 @@ A shared bus is simple and cheap but its bandwidth is divided among devices; poi
 
 ## Navigation
 
-**Previous:** [Memory and Storage: RAM, ROM, Cache, SSD and HDD](02-memory-and-storage.md) · **Up:** [Chapter 5: Computer components](index.md) · **Next:** [subject index](../index.md)
+**Previous:** [Memory and Storage: RAM, ROM, Cache, SSD and HDD](02-memory-and-storage.md) · **Up:** [Chapter 5: Computer components](index.md) · **Next:** [The Fetch-Decode-Execute Cycle](../06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md)
 <!-- END FOOTER -->
