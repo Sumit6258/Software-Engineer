@@ -6,7 +6,7 @@ Navigation across the entire library: all 15 parts, all 64 numbered subject area
 
 **Quick links:** [Start here](START-HERE.md) · [Learning paths](LEARNING-PATHS.md) · [Knowledge graph](KNOWLEDGE-GRAPH.md) · [Coverage matrix](curriculum/coverage-matrix.md) · [Progress](PROGRESS.md)
 
-**State:** 51 of 3032 subject topics have a drafted lesson.
+**State:** 60 of 3032 subject topics have a drafted lesson.
 
 ## [Part I — Computer Science Foundations](docs/01-computer-science-foundations/index.md)
 
@@ -40,8 +40,11 @@ Navigation across the entire library: all 15 parts, all 64 numbered subject area
   - [Chapter 6: How computers execute instructions](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/index.md)
     - [The Fetch-Decode-Execute Cycle](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/01-the-fetch-decode-execute-cycle.md) *(Drafted)*
     - [Interrupts and System Calls](docs/01-computer-science-foundations/01-computer-fundamentals/06-how-computers-execute-instructions/02-interrupts-and-system-calls.md) *(Drafted)*
-- **[2. Mathematics for Computer Science](docs/01-computer-science-foundations/02-mathematics-for-computer-science/index.md)** — Not started
-  - Chapter 1: Basic mathematics *(planned)*
+- **[2. Mathematics for Computer Science](docs/01-computer-science-foundations/02-mathematics-for-computer-science/index.md)** — In progress
+  - [Chapter 1: Basic mathematics](docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/index.md)
+    - [Arithmetic, Fractions, Percentages and Ratios](docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/01-arithmetic-fractions-percentages-and-ratios.md) *(Drafted)*
+    - [Exponents and Logarithms](docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/02-exponents-and-logarithms.md) *(Drafted)*
+    - [Algebra, Equations and Functions](docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/03-algebra-equations-and-functions.md) *(Drafted)*
   - Chapter 2: Discrete mathematics *(planned)*
   - Chapter 3: Mathematical logic *(planned)*
   - Chapter 4: Graph theory *(planned)*

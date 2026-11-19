@@ -22,9 +22,9 @@ A topic is **not** complete because its file exists. It is complete when a begin
 
 | Status | Topics | Share |
 | --- | --- | --- |
-| Not started | 2981 | 98.3% |
+| Not started | 2972 | 98.0% |
 | In progress | 0 | 0.0% |
-| Drafted | 51 | 1.7% |
+| Drafted | 60 | 2.0% |
 | Reviewed | 0 | 0.0% |
 | Complete | 0 | 0.0% |
 | **Total** | 3032 | 100% |
@@ -35,7 +35,7 @@ Topics in Parts XIII–XV (229) are covered by the generated pages under `docs/1
 
 | Part | Topics | Drafted or better | Part status |
 | --- | --- | --- | --- |
-| [Part I — Computer Science Foundations](coverage/part-01-computer-science-foundations.md) | 355 | 51 | In progress |
+| [Part I — Computer Science Foundations](coverage/part-01-computer-science-foundations.md) | 355 | 60 | In progress |
 | [Part II — Programming and Software Development](coverage/part-02-programming-and-software-development.md) | 305 | 0 | Not started |
 | [Part III — Professional Software Engineering](coverage/part-03-professional-software-engineering.md) | 252 | 0 | Not started |
 | [Part IV — Building Software Products](coverage/part-04-building-software-products.md) | 444 | 0 | Not started |
@@ -56,7 +56,7 @@ Topics in Parts XIII–XV (229) are covered by the generated pages under `docs/1
 | # | Subject | Groups | Topics | Drafted or better | Status |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [Computer Fundamentals](coverage/part-01-computer-science-foundations.md#1-computer-fundamentals) | 6 | 51 | 51 | Drafted |
-| 2 | [Mathematics for Computer Science](coverage/part-01-computer-science-foundations.md#2-mathematics-for-computer-science) | 10 | 101 | 0 | Not started |
+| 2 | [Mathematics for Computer Science](coverage/part-01-computer-science-foundations.md#2-mathematics-for-computer-science) | 10 | 101 | 9 | In progress |
 | 3 | [Digital Logic and Computer Organization](coverage/part-01-computer-science-foundations.md#3-digital-logic-and-computer-organization) | 4 | 43 | 0 | Not started |
 | 4 | [Operating Systems](coverage/part-01-computer-science-foundations.md#4-operating-systems) | 8 | 74 | 0 | Not started |
 | 5 | [Computer Networking](coverage/part-01-computer-science-foundations.md#5-computer-networking) | 8 | 86 | 0 | Not started |

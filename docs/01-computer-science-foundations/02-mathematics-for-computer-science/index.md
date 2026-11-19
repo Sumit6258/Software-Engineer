@@ -9,7 +9,7 @@ subject: 2
 
 > [Home](../../../README.md) › [Part I — Computer Science Foundations](../index.md) › Subject 2
 
-- **Status:** Not started (0 of 101 syllabus topics have a drafted lesson)
+- **Status:** In progress (9 of 101 syllabus topics have a drafted lesson)
 - **Source tags:** Beginner → Research level
 - **Syllabus size:** 10 chapters, 101 topics
 
@@ -41,7 +41,7 @@ flowchart TD
     classDef ns fill:#eceff1,stroke:#78909c,color:#263238;
     classDef ip fill:#fff8e1,stroke:#f9a825,color:#263238;
     classDef dr fill:#e8f5e9,stroke:#2e7d32,color:#1b2a1d;
-    class C1 ns;
+    class C1 dr;
     class C2 ns;
     class C3 ns;
     class C4 ns;
@@ -57,21 +57,25 @@ flowchart TD
 
 ### Chapter 1: Basic mathematics
 
-9 topics · status: **Not started**
+9 topics · status: **Drafted**
 
-*Planned location:* `docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/`. No lessons yet.
+Chapter index: [Chapter 1](01-basic-mathematics/index.md)
+
+- [Arithmetic, Fractions, Percentages and Ratios](01-basic-mathematics/01-arithmetic-fractions-percentages-and-ratios.md) — The everyday arithmetic of computing: integer division and remainders, rounding, exact fractions, percentages and ratios, and the places where a computer's arithmetic differs from the arithmetic taught at school. *(Drafted)*
+- [Exponents and Logarithms](01-basic-mathematics/02-exponents-and-logarithms.md) — Powers and their inverse, logarithms: the laws of exponents, exponential growth, fast and modular exponentiation, and why logarithms count bits, digits and the halvings of a binary search. *(Drafted)*
+- [Algebra, Equations and Functions](01-basic-mathematics/03-algebra-equations-and-functions.md) — Algebra as arithmetic with unknowns: solving linear and quadratic equations and pairs of equations, solving inequalities, and functions with their domain, range, composition and inverse, including the difference between a mathematical function and a function in code. *(Drafted)*
 
 <details><summary>Syllabus topics in this chapter (9)</summary>
 
-- `02.01.01` Arithmetic — *not started*
-- `02.01.02` Fractions — *not started*
-- `02.01.03` Percentages — *not started*
-- `02.01.04` Ratios — *not started*
-- `02.01.05` Exponents — *not started*
-- `02.01.06` Logarithms — *not started*
-- `02.01.07` Algebra — *not started*
-- `02.01.08` Equations and inequalities — *not started*
-- `02.01.09` Functions — *not started*
+- `02.01.01` Arithmetic — [Arithmetic, Fractions, Percentages and Ratios](01-basic-mathematics/01-arithmetic-fractions-percentages-and-ratios.md)
+- `02.01.02` Fractions — [Arithmetic, Fractions, Percentages and Ratios](01-basic-mathematics/01-arithmetic-fractions-percentages-and-ratios.md)
+- `02.01.03` Percentages — [Arithmetic, Fractions, Percentages and Ratios](01-basic-mathematics/01-arithmetic-fractions-percentages-and-ratios.md)
+- `02.01.04` Ratios — [Arithmetic, Fractions, Percentages and Ratios](01-basic-mathematics/01-arithmetic-fractions-percentages-and-ratios.md)
+- `02.01.05` Exponents — [Exponents and Logarithms](01-basic-mathematics/02-exponents-and-logarithms.md)
+- `02.01.06` Logarithms — [Exponents and Logarithms](01-basic-mathematics/02-exponents-and-logarithms.md)
+- `02.01.07` Algebra — [Algebra, Equations and Functions](01-basic-mathematics/03-algebra-equations-and-functions.md)
+- `02.01.08` Equations and inequalities — [Algebra, Equations and Functions](01-basic-mathematics/03-algebra-equations-and-functions.md)
+- `02.01.09` Functions — [Algebra, Equations and Functions](01-basic-mathematics/03-algebra-equations-and-functions.md)
 
 </details>
 
@@ -268,7 +272,7 @@ flowchart TD
 
 ## Recommended reading order
 
-1. Chapter 1 — Basic mathematics
+1. Chapter 1 — [Basic mathematics](01-basic-mathematics/index.md)
 2. Chapter 2 — Discrete mathematics
 3. Chapter 3 — Mathematical logic
 4. Chapter 4 — Graph theory

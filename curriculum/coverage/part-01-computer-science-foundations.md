@@ -103,23 +103,23 @@ Subject status: **Drafted** · [Subject index](../../docs/01-computer-science-fo
 
 ## 2. Mathematics for Computer Science
 
-Subject status: **Not started** · [Subject index](../../docs/01-computer-science-foundations/02-mathematics-for-computer-science/index.md)
+Subject status: **In progress** · [Subject index](../../docs/01-computer-science-foundations/02-mathematics-for-computer-science/index.md)
 
 ### 2.1 Basic mathematics
 
-9 topics · 0 drafted or better
+9 topics · 9 drafted or better
 
 | ID | Topic | Documented in / planned location | Status |
 | --- | --- | --- | --- |
-| `02.01.01` | Arithmetic | `docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/` | Not started |
-| `02.01.02` | Fractions | `docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/` | Not started |
-| `02.01.03` | Percentages | `docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/` | Not started |
-| `02.01.04` | Ratios | `docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/` | Not started |
-| `02.01.05` | Exponents | `docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/` | Not started |
-| `02.01.06` | Logarithms | `docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/` | Not started |
-| `02.01.07` | Algebra | `docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/` | Not started |
-| `02.01.08` | Equations and inequalities | `docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/` | Not started |
-| `02.01.09` | Functions | `docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/` | Not started |
+| `02.01.01` | Arithmetic | [Arithmetic, Fractions, Percentages and Ratios](../../docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/01-arithmetic-fractions-percentages-and-ratios.md) | Drafted |
+| `02.01.02` | Fractions | [Arithmetic, Fractions, Percentages and Ratios](../../docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/01-arithmetic-fractions-percentages-and-ratios.md) | Drafted |
+| `02.01.03` | Percentages | [Arithmetic, Fractions, Percentages and Ratios](../../docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/01-arithmetic-fractions-percentages-and-ratios.md) | Drafted |
+| `02.01.04` | Ratios | [Arithmetic, Fractions, Percentages and Ratios](../../docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/01-arithmetic-fractions-percentages-and-ratios.md) | Drafted |
+| `02.01.05` | Exponents | [Exponents and Logarithms](../../docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/02-exponents-and-logarithms.md) | Drafted |
+| `02.01.06` | Logarithms | [Exponents and Logarithms](../../docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/02-exponents-and-logarithms.md) | Drafted |
+| `02.01.07` | Algebra | [Algebra, Equations and Functions](../../docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/03-algebra-equations-and-functions.md) | Drafted |
+| `02.01.08` | Equations and inequalities | [Algebra, Equations and Functions](../../docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/03-algebra-equations-and-functions.md) | Drafted |
+| `02.01.09` | Functions | [Algebra, Equations and Functions](../../docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/03-algebra-equations-and-functions.md) | Drafted |
 
 ### 2.2 Discrete mathematics
 
