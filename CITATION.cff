@@ -12,5 +12,10 @@ keywords:
   - software engineering
   - education
   - curriculum
-# Owner action required: add repository-code, url, license (an SPDX identifier),
-# version and date-released once the repository is published and a licence is chosen.
+license: CC-BY-4.0
+repository-code: "https://github.com/Sumit6258/Software-Engineer"
+url: "https://github.com/Sumit6258/Software-Engineer"
+# The prose, diagrams and data are CC-BY-4.0 (see LICENSE). The code is under the MIT
+# licence (see LICENSE-CODE). CITATION.cff cannot say "this licence for this part": a
+# list of licences would mean "either one", so only the licence of the cited work is given.
+# Owner action required: add version and date-released once a release is tagged.

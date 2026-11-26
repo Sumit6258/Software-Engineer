@@ -491,5 +491,5 @@ print("8.", all(f(g(x)) == 2 * x * x + 3 and g(f(x)) == 4 * x * x + 12 * x + 9 f
 
 ## Navigation
 
-**Previous:** [Exponents and Logarithms](02-exponents-and-logarithms.md) · **Up:** [Chapter 1: Basic mathematics](index.md) · **Next:** [subject index](../index.md)
+**Previous:** [Exponents and Logarithms](02-exponents-and-logarithms.md) · **Up:** [Chapter 1: Basic mathematics](index.md) · **Next:** [Sets, Relations and Functions](../02-discrete-mathematics/01-sets-relations-and-functions.md)
 <!-- END FOOTER -->

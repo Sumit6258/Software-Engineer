@@ -107,4 +107,6 @@ If `source` validation fails, the syllabus `.docx` changed: run `python3 tools/p
 
 ## Licence
 
-No licence has been chosen yet (see [LICENSE](LICENSE)). Do not contribute material you do not have the right to share.
+The repository has two licences: [CC BY 4.0](LICENSE) for prose, diagrams, tables and data, and the [MIT licence](LICENSE-CODE) for code. The README says exactly what each covers.
+
+By submitting a contribution you confirm that you wrote it or have the right to share it, and that you license it under those same terms: CC BY 4.0 for prose, diagrams and data, and MIT for code. Do not submit text copied from books, papers, websites or other courses, and do not copy code from a source whose licence is incompatible with MIT. Prefer paraphrase and citation to quotation.

@@ -123,20 +123,20 @@ Subject status: **In progress** · [Subject index](../../docs/01-computer-scienc
 
 ### 2.2 Discrete mathematics
 
-10 topics · 0 drafted or better
+10 topics · 10 drafted or better
 
 | ID | Topic | Documented in / planned location | Status |
 | --- | --- | --- | --- |
-| `02.02.01` | Sets | `docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/` | Not started |
-| `02.02.02` | Relations | `docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/` | Not started |
-| `02.02.03` | Functions | `docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/` | Not started |
-| `02.02.04` | Sequences | `docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/` | Not started |
-| `02.02.05` | Permutations | `docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/` | Not started |
-| `02.02.06` | Combinations | `docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/` | Not started |
-| `02.02.07` | Mathematical induction | `docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/` | Not started |
-| `02.02.08` | Recurrence relations | `docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/` | Not started |
-| `02.02.09` | Pigeonhole principle | `docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/` | Not started |
-| `02.02.10` | Inclusion-exclusion principle | `docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/` | Not started |
+| `02.02.01` | Sets | [Sets, Relations and Functions](../../docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/01-sets-relations-and-functions.md) | Drafted |
+| `02.02.02` | Relations | [Sets, Relations and Functions](../../docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/01-sets-relations-and-functions.md) | Drafted |
+| `02.02.03` | Functions | [Sets, Relations and Functions](../../docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/01-sets-relations-and-functions.md) | Drafted |
+| `02.02.04` | Sequences | [Sequences, Permutations and Combinations](../../docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/02-sequences-permutations-and-combinations.md) | Drafted |
+| `02.02.05` | Permutations | [Sequences, Permutations and Combinations](../../docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/02-sequences-permutations-and-combinations.md) | Drafted |
+| `02.02.06` | Combinations | [Sequences, Permutations and Combinations](../../docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/02-sequences-permutations-and-combinations.md) | Drafted |
+| `02.02.07` | Mathematical induction | [Mathematical Induction and Recurrence Relations](../../docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/03-induction-and-recurrence-relations.md) | Drafted |
+| `02.02.08` | Recurrence relations | [Mathematical Induction and Recurrence Relations](../../docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/03-induction-and-recurrence-relations.md) | Drafted |
+| `02.02.09` | Pigeonhole principle | [The Pigeonhole Principle and Inclusion-Exclusion](../../docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/04-pigeonhole-and-inclusion-exclusion.md) | Drafted |
+| `02.02.10` | Inclusion-exclusion principle | [The Pigeonhole Principle and Inclusion-Exclusion](../../docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/04-pigeonhole-and-inclusion-exclusion.md) | Drafted |
 
 ### 2.3 Mathematical logic
 

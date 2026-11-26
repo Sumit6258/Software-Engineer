@@ -40,4 +40,4 @@ Please open an issue naming the lesson and the passage, and say what you expecte
 Yes, by proposing it in [curriculum/proposed-additions.md](curriculum/proposed-additions.md) and declaring it with `adds:` in the lesson that introduces it, so the inventory stays honest.
 
 **What licence applies?**
-None has been chosen yet; see [LICENSE](LICENSE).
+Two. The prose, diagrams and data are under Creative Commons Attribution 4.0 ([LICENSE](LICENSE)) and the code is under the MIT licence ([LICENSE-CODE](LICENSE-CODE)). The "Contributing and licence" section of the [README](README.md) says exactly what each covers and how to give credit.

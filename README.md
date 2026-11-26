@@ -64,7 +64,7 @@ flowchart TB
 software-engineer/
 ├── README.md  START-HERE.md  MASTER-INDEX.md  LEARNING-PATHS.md  KNOWLEDGE-GRAPH.md
 ├── PROGRESS.md  ROADMAP.md  GLOSSARY.md  FAQ.md  REFERENCES.md  CHANGELOG.md
-├── CONTRIBUTING.md  CODE_OF_CONDUCT.md  SECURITY.md  LICENSE  CITATION.cff
+├── CONTRIBUTING.md  CODE_OF_CONDUCT.md  SECURITY.md  LICENSE  LICENSE-CODE  CITATION.cff
 ├── COMPLETE-CURRICULUM.md     the source syllabus, every topic with a stable ID
 ├── curriculum/                curriculum.json (single source of truth), coverage matrix,
 │                              prerequisite map, technology index, extraction report
@@ -85,8 +85,8 @@ Each chapter directory corresponds to one group in the source syllabus, so the d
 | Numbered subject areas | 64 |
 | Chapters (groups) in the syllabus | 246 |
 | Syllabus topics inside the 64 subjects | 3032 |
-| Lessons written | 26 |
-| Topics covered by a drafted-or-better lesson | 60 of 3032 (2.0%) |
+| Lessons written | 30 |
+| Topics covered by a drafted-or-better lesson | 70 of 3032 (2.3%) |
 | Topics reviewed or complete | 0 |
 <!-- END STATS -->
 
@@ -102,4 +102,11 @@ Run all checks with `python3 tools/validate.py` (Python 3.10+, PyYAML, gcc, and 
 
 ## Contributing and licence
 
-Contributions that improve accuracy, depth, diagrams, exercises and references are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md) and the [Code of Conduct](CODE_OF_CONDUCT.md). **No licence has been chosen yet.** [LICENSE](LICENSE) is a documented placeholder until the repository owner decides; until then, assume no permissions beyond those the law grants by default.
+Contributions that improve accuracy, depth, diagrams, exercises and references are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md) and the [Code of Conduct](CODE_OF_CONDUCT.md). This repository has two licences, one for the words and one for the code.
+
+| What | Licence | File |
+| --- | --- | --- |
+| Lessons, diagrams, tables, exercises and solutions, the curriculum data and source syllabus, the generated pages, and all other prose | [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0) | [LICENSE](LICENSE) |
+| Code: everything in `tools/` and `.github/`, and the program listings in the lessons, including their exercise solutions | [MIT licence](https://opensource.org/license/mit) | [LICENSE-CODE](LICENSE-CODE) |
+
+You may share and adapt the prose, including commercially, if you give credit, link to the licence and say whether you changed it. A suitable credit is: "Software Engineer, by Sumit6258 and contributors, <https://github.com/Sumit6258/Software-Engineer>, licensed under CC BY 4.0." The code may be used for any purpose as long as the copyright and licence notice is kept. Both licences disclaim all warranties, and the lessons are drafts that have not been independently reviewed (see [PROGRESS.md](PROGRESS.md)). This is a plain-language summary, not legal advice; the licence files govern.

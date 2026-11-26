@@ -9,7 +9,7 @@ subject: 2
 
 > [Home](../../../README.md) › [Part I — Computer Science Foundations](../index.md) › Subject 2
 
-- **Status:** In progress (9 of 101 syllabus topics have a drafted lesson)
+- **Status:** In progress (19 of 101 syllabus topics have a drafted lesson)
 - **Source tags:** Beginner → Research level
 - **Syllabus size:** 10 chapters, 101 topics
 
@@ -42,7 +42,7 @@ flowchart TD
     classDef ip fill:#fff8e1,stroke:#f9a825,color:#263238;
     classDef dr fill:#e8f5e9,stroke:#2e7d32,color:#1b2a1d;
     class C1 dr;
-    class C2 ns;
+    class C2 dr;
     class C3 ns;
     class C4 ns;
     class C5 ns;
@@ -81,22 +81,27 @@ Chapter index: [Chapter 1](01-basic-mathematics/index.md)
 
 ### Chapter 2: Discrete mathematics
 
-10 topics · status: **Not started**
+10 topics · status: **Drafted**
 
-*Planned location:* `docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/`. No lessons yet.
+Chapter index: [Chapter 2](02-discrete-mathematics/index.md)
+
+- [Sets, Relations and Functions](02-discrete-mathematics/01-sets-relations-and-functions.md) — The basic structures of discrete mathematics: sets and their operations, relations and their properties including equivalence relations and partial orders, and functions with their one-to-one and onto properties, explored with short Python programs. *(Drafted)*
+- [Sequences, Permutations and Combinations](02-discrete-mathematics/02-sequences-permutations-and-combinations.md) — Sequences and their sums, and the art of counting: the rules of sum and product, permutations and combinations with and without repetition, Pascal's triangle and the binomial theorem, and how quickly counts grow. *(Drafted)*
+- [Mathematical Induction and Recurrence Relations](02-discrete-mathematics/03-induction-and-recurrence-relations.md) — How to prove a statement about every whole number by induction, and how to describe and solve recurrence relations, with the costs of Tower of Hanoi, naive Fibonacci, binary search and merge sort as worked examples. *(Drafted)*
+- [The Pigeonhole Principle and Inclusion-Exclusion](02-discrete-mathematics/04-pigeonhole-and-inclusion-exclusion.md) — Two counting principles with far-reaching consequences: the pigeonhole principle, which forces repeats and collisions, and inclusion-exclusion, which counts a union correctly, with applications to hashing, compression, derangements and onto functions. *(Drafted)*
 
 <details><summary>Syllabus topics in this chapter (10)</summary>
 
-- `02.02.01` Sets — *not started*
-- `02.02.02` Relations — *not started*
-- `02.02.03` Functions — *not started*
-- `02.02.04` Sequences — *not started*
-- `02.02.05` Permutations — *not started*
-- `02.02.06` Combinations — *not started*
-- `02.02.07` Mathematical induction — *not started*
-- `02.02.08` Recurrence relations — *not started*
-- `02.02.09` Pigeonhole principle — *not started*
-- `02.02.10` Inclusion-exclusion principle — *not started*
+- `02.02.01` Sets — [Sets, Relations and Functions](02-discrete-mathematics/01-sets-relations-and-functions.md)
+- `02.02.02` Relations — [Sets, Relations and Functions](02-discrete-mathematics/01-sets-relations-and-functions.md)
+- `02.02.03` Functions — [Sets, Relations and Functions](02-discrete-mathematics/01-sets-relations-and-functions.md)
+- `02.02.04` Sequences — [Sequences, Permutations and Combinations](02-discrete-mathematics/02-sequences-permutations-and-combinations.md)
+- `02.02.05` Permutations — [Sequences, Permutations and Combinations](02-discrete-mathematics/02-sequences-permutations-and-combinations.md)
+- `02.02.06` Combinations — [Sequences, Permutations and Combinations](02-discrete-mathematics/02-sequences-permutations-and-combinations.md)
+- `02.02.07` Mathematical induction — [Mathematical Induction and Recurrence Relations](02-discrete-mathematics/03-induction-and-recurrence-relations.md)
+- `02.02.08` Recurrence relations — [Mathematical Induction and Recurrence Relations](02-discrete-mathematics/03-induction-and-recurrence-relations.md)
+- `02.02.09` Pigeonhole principle — [The Pigeonhole Principle and Inclusion-Exclusion](02-discrete-mathematics/04-pigeonhole-and-inclusion-exclusion.md)
+- `02.02.10` Inclusion-exclusion principle — [The Pigeonhole Principle and Inclusion-Exclusion](02-discrete-mathematics/04-pigeonhole-and-inclusion-exclusion.md)
 
 </details>
 
@@ -273,7 +278,7 @@ Chapter index: [Chapter 1](01-basic-mathematics/index.md)
 ## Recommended reading order
 
 1. Chapter 1 — [Basic mathematics](01-basic-mathematics/index.md)
-2. Chapter 2 — Discrete mathematics
+2. Chapter 2 — [Discrete mathematics](02-discrete-mathematics/index.md)
 3. Chapter 3 — Mathematical logic
 4. Chapter 4 — Graph theory
 5. Chapter 5 — Linear algebra

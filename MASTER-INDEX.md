@@ -6,7 +6,7 @@ Navigation across the entire library: all 15 parts, all 64 numbered subject area
 
 **Quick links:** [Start here](START-HERE.md) · [Learning paths](LEARNING-PATHS.md) · [Knowledge graph](KNOWLEDGE-GRAPH.md) · [Coverage matrix](curriculum/coverage-matrix.md) · [Progress](PROGRESS.md)
 
-**State:** 60 of 3032 subject topics have a drafted lesson.
+**State:** 70 of 3032 subject topics have a drafted lesson.
 
 ## [Part I — Computer Science Foundations](docs/01-computer-science-foundations/index.md)
 
@@ -45,7 +45,11 @@ Navigation across the entire library: all 15 parts, all 64 numbered subject area
     - [Arithmetic, Fractions, Percentages and Ratios](docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/01-arithmetic-fractions-percentages-and-ratios.md) *(Drafted)*
     - [Exponents and Logarithms](docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/02-exponents-and-logarithms.md) *(Drafted)*
     - [Algebra, Equations and Functions](docs/01-computer-science-foundations/02-mathematics-for-computer-science/01-basic-mathematics/03-algebra-equations-and-functions.md) *(Drafted)*
-  - Chapter 2: Discrete mathematics *(planned)*
+  - [Chapter 2: Discrete mathematics](docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/index.md)
+    - [Sets, Relations and Functions](docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/01-sets-relations-and-functions.md) *(Drafted)*
+    - [Sequences, Permutations and Combinations](docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/02-sequences-permutations-and-combinations.md) *(Drafted)*
+    - [Mathematical Induction and Recurrence Relations](docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/03-induction-and-recurrence-relations.md) *(Drafted)*
+    - [The Pigeonhole Principle and Inclusion-Exclusion](docs/01-computer-science-foundations/02-mathematics-for-computer-science/02-discrete-mathematics/04-pigeonhole-and-inclusion-exclusion.md) *(Drafted)*
   - Chapter 3: Mathematical logic *(planned)*
   - Chapter 4: Graph theory *(planned)*
   - Chapter 5: Linear algebra *(planned)*
